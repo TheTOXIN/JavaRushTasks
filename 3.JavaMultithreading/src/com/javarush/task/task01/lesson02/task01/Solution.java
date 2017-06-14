@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson02.task01;
+package com.javarush.task.task01.lesson02.task01;
 
 /* Определяем адрес сети
 1) Даны IP-адрес и маска подсети, необходимо вычислить адрес сети - метод getNetAddress.

@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson05.task01;
+package com.javarush.task.task06.lesson05.task01;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;

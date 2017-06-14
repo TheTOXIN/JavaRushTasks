@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.bonus02;
+package com.javarush.task.task07.lesson10.bonus02;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

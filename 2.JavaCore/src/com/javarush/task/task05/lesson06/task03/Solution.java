@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson06.task03;
+package com.javarush.task.task05.lesson06.task03;
 
 /* Максимально простой код 3
 Упрости код:

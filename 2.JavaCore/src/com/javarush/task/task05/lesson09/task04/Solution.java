@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson09.task04;
+package com.javarush.task.task05.lesson09.task04;
 
 /* Статики и исключения
 В статическом блоке выбросьте RuntimeException

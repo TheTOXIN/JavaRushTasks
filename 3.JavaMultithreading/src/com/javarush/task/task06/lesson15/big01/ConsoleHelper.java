@@ -1,6 +1,4 @@
-package com.javarush.test.level26.lesson15.big01;
-
-import com.javarush.test.level26.lesson15.big01.exception.InterruptOperationException;
+package com.javarush.task.task06.lesson15.big01;
 
 import java.io.BufferedReader;
 import java.io.IOException;

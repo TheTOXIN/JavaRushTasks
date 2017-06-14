@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson02.home01;
+package com.javarush.task.task04.lesson02.home01;
 
 /* Создание своего интерфейса-маркера
 1. Создайте интерфейс-маркер SelfInterfaceMarker

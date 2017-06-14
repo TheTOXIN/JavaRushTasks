@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson05.task02;
+package com.javarush.task.task09.lesson05.task02;
 
 /* Особенности автобоксинга
 Исправьте ошибку в методе getValueByIndex.

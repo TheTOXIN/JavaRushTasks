@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson02.task01;
+package com.javarush.task.task10.lesson02.task01;
 
 /* Осваиваем методы класса Integer
 Используя метод Integer.parseInt(String, int) реализуйте логику метода convertToDecimalSystem,

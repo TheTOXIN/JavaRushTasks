@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.home05;
+package com.javarush.task.task01.lesson11.home05;
 
 /* От школьника к рабству
 Написать четыре класса: Schoolboy(школьник), Student(студент), Worker(Сотрудник), Slave (Раб)

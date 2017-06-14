@@ -1,4 +1,4 @@
-package com.javarush.test.level10.lesson04.task05;
+package com.javarush.task.task10.task05;
 
 /* Задача №5 на преобразование целых типов
 Расставьте правильно операторы приведения типа, чтобы получился ответ: c=256

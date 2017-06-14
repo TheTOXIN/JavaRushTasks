@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson10.home01;
+package com.javarush.task.task09.lesson10.home01;
 
 /* Считаем зарплаты
 В метод main первым параметром приходит имя файла.

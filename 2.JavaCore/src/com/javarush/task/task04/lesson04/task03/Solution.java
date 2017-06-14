@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson04.task03;
+package com.javarush.task.task04.lesson04.task03;
 
 /* Food
 1. Реализовать интерфейс Selectable в классе Food.

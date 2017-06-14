@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson07.task02;
+package com.javarush.task.task09.lesson07.task02;
 
 /* Особенности автобоксинга - 2
 Исправьте ошибку реализации, приводящую к NullPointerException, в методе getValue.

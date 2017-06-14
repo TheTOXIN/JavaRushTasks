@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson10.home05;
+package com.javarush.task.task09.lesson10.home05;
 
 /* Слова с цифрами
 В метод main первым параметром приходит имя файла1, вторым - файла2.

@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson12.home05;
+package com.javarush.task.task02.lesson12.home05;
 
 /* Что это? «Кот», «Тигр», «Лев», «Бык», «Корова», «Животное»
 Напиши метод, который определяет, какой объект передали в него.
@@ -19,7 +19,7 @@ public class Solution
         System.out.println(getObjectType(new Animal()));
     }
 
-    public static String getObjectType(Object o)
+    public static String getObjectType(com.javarush.test.level12.lesson12.home05.Solution.Animal o)
     {
         if (o instanceof Cat)
         {

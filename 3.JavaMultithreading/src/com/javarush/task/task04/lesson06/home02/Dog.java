@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson06.home02;
+package com.javarush.task.task04.lesson06.home02;
 
 /*
 В работе вам иногда будет нужно закастить класс к какому-нибудь другому классу, не интерфейсу :)))

@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson04.task01;
+package com.javarush.task.task05.lesson04.task01;
 
 /*
 1 Программа должна выводить следующее:
@@ -26,7 +26,7 @@ public class Solution
         System.out.println("Это Integer");
     }
 
-    public static void print(Object i)
+    public static void print(Number i)
     {
         System.out.println("Это Object");
     }

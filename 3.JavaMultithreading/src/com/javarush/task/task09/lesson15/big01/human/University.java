@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson15.big01.human;
+package com.javarush.task.task09.lesson15.big01.human;
 
 public class University extends Student {
 

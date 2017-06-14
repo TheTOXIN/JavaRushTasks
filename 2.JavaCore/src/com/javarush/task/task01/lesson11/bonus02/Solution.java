@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.bonus02;
+package com.javarush.task.task01.lesson11.bonus02;
 
 /* Нужно добавить в программу новую функциональность
 Добавь общий базовый класс к классам-фигур:  (фигуры из шахмат).

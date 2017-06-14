@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson02.task05;
+package com.javarush.task.task02.lesson02.task05;
 
 /* Или «Корова», или «Кит», или «Собака», или «Неизвестное животное»
 Написать метод, который определяет, объект какого класса ему передали,

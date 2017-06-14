@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson02.task02;
+package com.javarush.task.task05.lesson02.task02;
 
 /* ООП - наследование животных
 1. Создать public static класс Goose(Гусь).

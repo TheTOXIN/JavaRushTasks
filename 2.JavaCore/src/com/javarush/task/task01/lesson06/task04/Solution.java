@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson06.task04;
+package com.javarush.task.task01.lesson06.task04;
 
 /* Все мы работники
 Написать четыре класса: Employee(сотрудник), Manager(управляющий), Chief(директор) и  Secretary(секретарь).

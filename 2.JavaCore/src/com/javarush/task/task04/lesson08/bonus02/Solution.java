@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson08.bonus02;
+package com.javarush.task.task04.lesson08.bonus02;
 
 /* НОД
 Наибольший общий делитель (НОД).

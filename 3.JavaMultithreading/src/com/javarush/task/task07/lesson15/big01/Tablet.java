@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson15.big01;
+package com.javarush.task.task07.lesson15.big01;
 
 
 public class Tablet {

@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson18.big01;
+package com.javarush.task.task02.lesson18.big01;
 
 /**
  * Клсс FigureFactory отвечает за создание объектов-фигурок.

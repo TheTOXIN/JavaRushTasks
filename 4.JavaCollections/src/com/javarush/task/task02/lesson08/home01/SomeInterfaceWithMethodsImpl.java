@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson08.home01;
+package com.javarush.task.task02.lesson08.home01;
 
 public class SomeInterfaceWithMethodsImpl implements SomeInterfaceWithMethods {
     public void voidMethodWithoutArgs() {

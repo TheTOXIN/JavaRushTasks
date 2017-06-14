@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson06.task04;
+package com.javarush.task.task02.lesson06.task04;
 
 /* Класс Cow от Animal
 Унаследуй класс Cow от Animal.

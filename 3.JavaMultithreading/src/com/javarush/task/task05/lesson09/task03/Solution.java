@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson09.task03;
+package com.javarush.task.task05.lesson09.task03;
 
 /* Живем своим умом
 В классе Solution реализуйте интерфейс UncaughtExceptionHandler, который должен:

@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home04;
+package com.javarush.task.task05.lesson12.home04;
 
 public interface Planet {
     static String SUN = "sun";

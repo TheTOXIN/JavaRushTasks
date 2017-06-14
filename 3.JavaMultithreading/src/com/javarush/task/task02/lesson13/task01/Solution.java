@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson13.task01;
+package com.javarush.task.task02.lesson13.task01;
 
 /* StringTokenizer
 Используя StringTokenizer разделить query на части по разделителю delimiter.

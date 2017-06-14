@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson05.task05;
+package com.javarush.task.task08.lesson05.task05;
 
 /* DownloadException
 1 Считывать с консоли имена файлов.

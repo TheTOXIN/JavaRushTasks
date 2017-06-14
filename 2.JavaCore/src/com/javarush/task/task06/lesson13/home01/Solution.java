@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home01;
+package com.javarush.task.task06.lesson13.home01;
 
 /* Thread.currentThread - всегда возвращает текущую нить
 1. В методе printMsg присвой переменной t текущую нить.

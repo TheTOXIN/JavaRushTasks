@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson05.task02;
+package com.javarush.task.task06.lesson05.task02;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson08.task02;
+package com.javarush.task.task06.lesson08.task02;
 
 /* Мудрый человек думает раз, прежде чем два раза сказать.
 Все методы класса Solution должны быть потоково-безопасными.

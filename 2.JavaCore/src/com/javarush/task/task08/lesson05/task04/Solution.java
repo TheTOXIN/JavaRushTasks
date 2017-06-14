@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson05.task04;
+package com.javarush.task.task08.lesson05.task04;
 
 /* Реверс файла
 Считать с консоли 2 имени файла: файл1, файл2.

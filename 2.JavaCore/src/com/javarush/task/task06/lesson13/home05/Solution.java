@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home05;
+package com.javarush.task.task06.lesson13.home05;
 
 /* Взаимная блокировка
 1. Разберись, как работает программа.

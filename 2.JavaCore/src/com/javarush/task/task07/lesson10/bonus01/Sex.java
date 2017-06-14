@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.bonus01;
+package com.javarush.task.task07.lesson10.bonus01;
 
 public enum Sex {
     MALE,

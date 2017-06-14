@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.bonus03;
+package com.javarush.task.task07.lesson10.bonus03;
 
 /* Ресторан
 1.Разберись, что делает программа. Официант почему-то не относит приготовленные блюда назад к столам :(

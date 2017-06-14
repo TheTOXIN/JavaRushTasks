@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson09.task01;
+package com.javarush.task.task07.lesson09.task01;
 
 import java.util.concurrent.CountDownLatch;
 

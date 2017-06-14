@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson05.task03;
+package com.javarush.task.task06.lesson05.task03;
 
 /* Продвижение на политических дебатах
 1. Разберитесь, что делает программа.

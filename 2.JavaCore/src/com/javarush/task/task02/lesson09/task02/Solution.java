@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson09.task02;
+package com.javarush.task.task02.lesson09.task02;
 
 /* Интерфейсы Fly, Run, Swim
 Напиши public интерфейсы Fly(летать), Run(бежать/ездить), Swim(плавать).

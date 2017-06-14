@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson12.home02;
+package com.javarush.task.task05.home0502;
 
 /* Man and Woman
 1. Внутри класса Solution создай public static классы Man и Woman.

@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson10.task02;
+package com.javarush.task.task06.lesson10.task02;
 
 /* Отсчет на гонках
 1. Разберись, что делает программа.

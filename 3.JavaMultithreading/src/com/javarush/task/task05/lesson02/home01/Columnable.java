@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson02.home01;
+package com.javarush.task.task05.lesson02.home01;
 
 public interface Columnable {
 

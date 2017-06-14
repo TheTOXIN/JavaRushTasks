@@ -1,4 +1,4 @@
-package com.javarush.test.level10.lesson11.home07;
+package com.javarush.task.task10.home07;
 
 /* Расставьте минимум static-ов
 Расставьте как можно меньше модификаторов static так, чтобы пример скомпилировался.

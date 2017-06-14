@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson10.task04;
+package com.javarush.task.task06.lesson10.task04;
 
 /* А без interrupt слабо?
 Разберись, как работает программа.

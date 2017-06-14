@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson08.task03;
+package com.javarush.task.task06.lesson08.task03;
 
 /* Распределение элементов по корзинам с собственным локом.
 В синхронизированных блоках используйте нужный лок.

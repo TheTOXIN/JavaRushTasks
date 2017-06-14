@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson09.task01;
+package com.javarush.task.task02.lesson09.task01;
 
 import java.util.LinkedList;
 import java.util.List;

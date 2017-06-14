@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson08.task03;
+package com.javarush.task.task01.lesson08.task03;
 
 /* Запретить клонирование
 Разрешите клонировать класс А

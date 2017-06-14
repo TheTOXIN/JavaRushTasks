@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson09.home02;
+package com.javarush.task.task07.lesson09.home02;
 
 public class Person implements Runnable {
     private final Mail mail;

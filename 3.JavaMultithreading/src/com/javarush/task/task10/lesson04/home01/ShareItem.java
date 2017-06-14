@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson04.home01;
+package com.javarush.task.task10.lesson04.home01;
 
 //this class shows how to call other constructors using 'this'
 public class ShareItem {

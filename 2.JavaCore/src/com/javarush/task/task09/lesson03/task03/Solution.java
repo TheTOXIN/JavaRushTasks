@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson03.task03;
+package com.javarush.task.task09.lesson03.task03;
 
 /* Адаптация нескольких интерфейсов
 Адаптировать IncomeData к Customer и Contact.
@@ -12,7 +12,6 @@ CA Canada
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 public class Solution {
     public static Map<String,String> countries = new HashMap<String,String>();

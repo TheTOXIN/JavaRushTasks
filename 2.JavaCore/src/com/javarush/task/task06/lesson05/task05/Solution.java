@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson05.task05;
+package com.javarush.task.task06.lesson05.task05;
 
 /* Расставь вызовы методов join()
 1. Разберитесь, что делает программа.

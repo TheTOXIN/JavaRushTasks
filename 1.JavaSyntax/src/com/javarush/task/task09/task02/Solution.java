@@ -1,4 +1,4 @@
-package com.javarush.test.level09.lesson02.task02;
+package com.javarush.task.task09.task02;
 
 /*****************************************************************************************
 И снова StackTrace

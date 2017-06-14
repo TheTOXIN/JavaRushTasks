@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home04;
+package com.javarush.task.task07.lesson10.home04;
 
 /* Синхронизированные методы
 Установить модификатор synchronized только тем методам, которым необходимо.

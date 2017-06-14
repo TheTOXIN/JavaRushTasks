@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson15.big01;
+package com.javarush.task.task10.lesson15.big01;
 
 public class Connection {
 }

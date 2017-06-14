@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson02.task03;
+package com.javarush.task.task05.lesson02.task03;
 
 /* ООП - машинки
 1. Для вывода использовать можно только переменные из класса Constants.

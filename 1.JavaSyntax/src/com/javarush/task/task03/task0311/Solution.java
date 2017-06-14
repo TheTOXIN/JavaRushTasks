@@ -1,4 +1,4 @@
-package com.javarush.test.level03.lesson08.task01;
+package com.javarush.task.task03.task0311;
 
 /**
  * Created by noliv_000 on 16.10.2014.
@@ -11,9 +11,7 @@ package com.javarush.test.level03.lesson08.task01;
 Последовательность вводимых данных имеет большое значение.
 */
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Solution

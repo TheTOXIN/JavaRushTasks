@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson05.task01;
+package com.javarush.task.task08.lesson05.task01;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

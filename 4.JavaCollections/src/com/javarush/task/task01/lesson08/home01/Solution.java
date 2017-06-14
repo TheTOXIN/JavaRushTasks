@@ -1,4 +1,4 @@
-package com.javarush.test.level31.lesson08.home01;
+package com.javarush.task.task01.lesson08.home01;
 
 /* Null Object Pattern
 Почитайте на вики про паттерн "Null Object"

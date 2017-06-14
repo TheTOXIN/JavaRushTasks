@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson02.task01;
+package com.javarush.task.task05.lesson02.task01;
 
 /* ООП - Расставить интерфейсы
 1. Добавить все возможные интерфейсы из Movable, Sellable, Discountable в класс Clothes.

@@ -1,4 +1,4 @@
-package com.javarush.test.level08.lesson06.task04;
+package com.javarush.task.task08.task10;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -18,7 +18,7 @@ public class Solution
         System.out.println(getTimeMsOfGet(fill(new LinkedList())));
     }
 
-    private static List fill(List list)
+    private static List<? extends Object> fill(List list)
     {
         for(int i = 0; i < 11; i++)
         {
@@ -35,7 +35,7 @@ public class Solution
         return finish.getTime() - start.getTime();
     }
 
-    public static void get10000(List list)
+    public static void get10000(List<? extends Object> list)
     {
         if (list.isEmpty()) return;
         int x = list.size() / 2;

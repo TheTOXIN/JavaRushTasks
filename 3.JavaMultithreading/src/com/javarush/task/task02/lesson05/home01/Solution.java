@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson05.home01;
+package com.javarush.task.task02.lesson05.home01;
 
 /* Нитиевые строки или строковые нити? Вот в чем вопрос.
 1. Метод getPartOfString должен возвращать подстроку между первой и последней табуляцией.

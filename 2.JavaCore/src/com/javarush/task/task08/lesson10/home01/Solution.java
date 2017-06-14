@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home01;
+package com.javarush.task.task08.lesson10.home01;
 
 /* Английские буквы
 В метод main первым параметром приходит имя файла.

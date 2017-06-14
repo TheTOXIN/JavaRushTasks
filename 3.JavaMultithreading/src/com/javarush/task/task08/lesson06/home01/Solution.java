@@ -1,4 +1,4 @@
-package com.javarush.test.level28.lesson06.home01;
+package com.javarush.task.task08.lesson06.home01;
 
 /* Приоритеты в Threads
 В отдельном файле создайте класс MyThread унаследовавшись от Thread. MyThread должен:

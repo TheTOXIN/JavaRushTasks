@@ -1,4 +1,4 @@
-package com.javarush.test.level10.lesson04.task02;
+package com.javarush.task.task10.task02;
 
 /* Задача №2 на преобразование целых типов
 Расставьте правильно операторы приведения типа, чтобы получился ответ: d=3.765

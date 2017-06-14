@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson08.task02;
+package com.javarush.task.task09.lesson08.task02;
 
 /* Ридер обертка 2
 В методе main подмените объект System.out написанной вами ридер-оберткой по аналогии с лекцией

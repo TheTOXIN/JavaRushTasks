@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.bonus03;
+package com.javarush.task.task01.lesson11.bonus03;
 
 /* Задача по алгоритмам
 Написать метод, который возвращает минимальное и максимальное числа в массиве.

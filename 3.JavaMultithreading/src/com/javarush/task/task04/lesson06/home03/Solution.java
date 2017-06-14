@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson06.home03;
+package com.javarush.task.task04.lesson06.home03;
 
 /* Интернет-магазин продажи джинсов
 1.Внутри файла Solution.java, но НЕ внутри класса Solution создайте 2 интерфейса:

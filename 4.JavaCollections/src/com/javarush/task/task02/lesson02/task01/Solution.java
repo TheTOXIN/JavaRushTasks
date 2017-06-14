@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson02.task01;
+package com.javarush.task.task02.lesson02.task01;
 
 /* Запись в файл
 В метод main приходят три параметра:

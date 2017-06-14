@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home04;
+package com.javarush.task.task06.lesson13.home04;
 
 /* Последовательные выполнения нитей
 1. Разберись, что делает программа.

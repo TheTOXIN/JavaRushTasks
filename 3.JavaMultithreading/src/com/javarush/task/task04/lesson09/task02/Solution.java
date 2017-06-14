@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson09.task02;
+package com.javarush.task.task04.lesson09.task02;
 
 import java.text.ChoiceFormat;
 import java.text.Format;
@@ -74,7 +74,7 @@ public class Solution {
     }
 
     public static List<Stock> getStocks() {
-        List<Stock> stocks = new ArrayList();
+        List<Stock> stocks = new ArrayList<com.javarush.test.level24.lesson09.task02.Solution.Stock>();
 
         stocks.add(new Stock("Fake Apple Inc.", "AAPL", 125.64, 123.43));
         stocks.add(new Stock("Fake Cisco Systems, Inc.", "CSCO", 25.84, 26.3));

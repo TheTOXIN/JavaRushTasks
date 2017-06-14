@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home02;
+package com.javarush.task.task06.lesson13.home02;
 
 /* Последовательные выполнения нитей
 1. В методе run после всех действий поставь задержку в 10 миллисекунд. Выведи "Нить прервана", если нить будет прервана.

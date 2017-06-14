@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson08.home01;
+package com.javarush.task.task02.lesson08.home01;
 
 /* Создание прокси-объекта
 1) В отдельном файле создать публичный класс CustomInvocationHandler, который будет хэндлером при создании прокси-объекта.

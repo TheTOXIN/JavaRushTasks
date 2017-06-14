@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson05.task04;
+package com.javarush.task.task09.lesson05.task04;
 
 /* Замена знаков
 Считать с консоли 2 имени файла.

@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson05.task02;
+package com.javarush.task.task08.lesson05.task02;
 
 /* Подсчет запятых
 С консоли считать имя файла

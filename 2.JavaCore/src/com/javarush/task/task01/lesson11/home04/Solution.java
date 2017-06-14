@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.home04;
+package com.javarush.task.task01.lesson11.home04;
 
 /* Религии
 Написать три класса: Judaism(Иудаизм), Christianity(Христианство), Islam(Мусульманство)

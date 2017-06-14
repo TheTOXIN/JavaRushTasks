@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson10.home08;
+package com.javarush.task.task09.lesson10.home08;
 
 /* Перевертыши
 1 Считать с консоли имя файла.

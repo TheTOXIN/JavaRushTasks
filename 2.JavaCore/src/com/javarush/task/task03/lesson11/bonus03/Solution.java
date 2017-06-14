@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson11.bonus03;
+package com.javarush.task.task03.lesson11.bonus03;
 
 /* Битва роботов
 1 Разобраться в том, что тут написано.

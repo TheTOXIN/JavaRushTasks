@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson08.task04;
+package com.javarush.task.task01.lesson08.task04;
 
 /* Инкапсуляция для классов Cat и Dog
 Скрыть все внутренние переменные класса Cat и Dog.

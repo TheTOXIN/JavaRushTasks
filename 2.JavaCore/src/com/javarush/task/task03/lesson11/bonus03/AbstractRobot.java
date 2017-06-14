@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson11.bonus03;
+package com.javarush.task.task03.lesson11.bonus03;
 
 public class AbstractRobot implements Attackable, Defensable
 {
@@ -31,7 +31,7 @@ public class AbstractRobot implements Attackable, Defensable
             attackedBodyPart =  BodyPart.LEG;
         } else if (hitCount == 4)
         {
-            Robot.hitCount = 0;
+            hitCount = 0;
             attackedBodyPart = BodyPart.GRD;
         }
         return attackedBodyPart;
@@ -40,7 +40,7 @@ public class AbstractRobot implements Attackable, Defensable
     public BodyPart defense()
     {
         BodyPart defencedBodyPart = null;
-        Robot.hitCount = Robot.hitCount + 1;
+        hitCount = hitCount + 1;
 
         if (hitCount == 1)
         {

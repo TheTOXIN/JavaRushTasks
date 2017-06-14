@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson09.task01;
+package com.javarush.task.task04.lesson09.task01;
 
 /* Вспомним наследование
 Исправить наследование во всех классах, чтобы вывод метода main был CCBAYS

@@ -1,8 +1,7 @@
-package com.javarush.test.level18.lesson10.home08;
+package com.javarush.task.task08.lesson10.home08;
 
 import java.io.*;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 

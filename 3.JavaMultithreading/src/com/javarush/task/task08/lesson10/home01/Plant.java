@@ -1,8 +1,8 @@
-package com.javarush.test.level28.lesson10.home01;
+package com.javarush.task.task08.lesson10.home01;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Plant extends Character {
+public class Plant extends java.lang.Character {
     private final static AtomicInteger idSequence = new AtomicInteger();
     private final int id = idSequence.incrementAndGet();
 

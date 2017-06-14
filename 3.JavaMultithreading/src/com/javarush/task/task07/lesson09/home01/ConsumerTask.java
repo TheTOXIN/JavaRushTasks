@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson09.home01;
+package com.javarush.task.task07.lesson09.home01;
 
 public class ConsumerTask implements Runnable {
     private TransferObject transferObject;

@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson03.task04;
+package com.javarush.task.task06.lesson03.task04;
 
 /* Вывод стек-трейса
 1. Создать таск - класс public static SpecialThread - на основании интерфейса Runnable

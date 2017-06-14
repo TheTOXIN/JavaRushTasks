@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson05.task03;
+package com.javarush.task.task05.task0503;
 
 /* Геттеры и сеттеры для класса Dog
 Создать class Dog. У собаки должна быть кличка String name и возраст int age.

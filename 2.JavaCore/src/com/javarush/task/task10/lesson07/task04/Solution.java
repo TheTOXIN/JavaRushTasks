@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson07.task04;
+package com.javarush.task.task10.lesson07.task04;
 
 import java.io.*;
 import java.text.SimpleDateFormat;

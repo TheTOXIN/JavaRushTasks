@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson10.task03;
+package com.javarush.task.task01.lesson10.task03;
 
 import java.io.*;
 import java.nio.charset.Charset;

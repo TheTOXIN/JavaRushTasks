@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson10.home07;
+package com.javarush.task.task10.lesson10.home07;
 
 import java.io.*;
 

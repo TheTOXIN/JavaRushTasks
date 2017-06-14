@@ -1,7 +1,6 @@
-package com.javarush.test.level08.lesson11.home03;
+package com.javarush.task.task08.home03;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 /* Люди с одинаковыми именами и/или фамилиями

@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson02.task04;
+package com.javarush.task.task02.lesson02.task04;
 
 /* Или «Кошка», или «Собака», или «Птица», или «Лампа»
 Написать метод, который определяет,

@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson06.task02;
+package com.javarush.task.task03.lesson06.task02;
 
 /* Рефакторинг
 Отрефакторите класс Solution: вынесите все константы в public вложенный(nested) класс Constants.

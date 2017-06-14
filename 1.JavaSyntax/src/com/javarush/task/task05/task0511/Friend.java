@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson09.task01;
+package com.javarush.task.task05.task0511;
 
 /* Создать класс Friend
 Создать класс Friend (друг) с тремя конструкторами:

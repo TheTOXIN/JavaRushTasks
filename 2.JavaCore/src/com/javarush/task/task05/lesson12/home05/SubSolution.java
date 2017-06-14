@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home05;
+package com.javarush.task.task05.lesson12.home05;
 
 import java.math.BigDecimal;
 

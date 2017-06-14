@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson07.task01;
+package com.javarush.task.task05.lesson07.task01;
 
 import java.io.IOException;
 import java.io.InputStream;

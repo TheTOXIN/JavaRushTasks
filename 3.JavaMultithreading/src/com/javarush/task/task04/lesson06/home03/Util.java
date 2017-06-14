@@ -1,7 +1,4 @@
-package com.javarush.test.level24.lesson06.home03;
-
-import java.util.Collection;
-import java.util.LinkedList;
+package com.javarush.task.task04.lesson06.home03;
 
 public class Util {
 //    protected static Collection<Object[]> jeansArray = new LinkedList<>();

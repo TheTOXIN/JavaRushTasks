@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson09.task03;
+package com.javarush.task.task02.lesson09.task03;
 
 /* Составить цепочку слов
 В методе main считайте с консоли имя файла, который содержит слова, разделенные пробелом.

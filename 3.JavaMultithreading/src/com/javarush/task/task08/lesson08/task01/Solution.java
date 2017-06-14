@@ -1,8 +1,4 @@
-package com.javarush.test.level28.lesson08.task01;
-
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+package com.javarush.task.task08.lesson08.task01;
 
 /* Знакомство с Executors
 1. В методе main создай фиксированный пул из 5 трэдов используя класс Executors.

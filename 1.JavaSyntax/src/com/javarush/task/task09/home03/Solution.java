@@ -1,9 +1,8 @@
-package com.javarush.test.level09.lesson11.home03;
+package com.javarush.task.task09.home03;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.List;
 
 /* Метод в try..catch
 Вводить с клавиатуры числа. Код по чтению чисел с клавиатуры вынести в отдельный метод readData.

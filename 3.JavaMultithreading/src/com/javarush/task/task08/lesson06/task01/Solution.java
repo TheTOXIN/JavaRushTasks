@@ -1,4 +1,4 @@
-package com.javarush.test.level28.lesson06.task01;
+package com.javarush.task.task08.lesson06.task01;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;

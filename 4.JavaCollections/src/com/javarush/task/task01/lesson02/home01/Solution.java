@@ -1,4 +1,4 @@
-package com.javarush.test.level31.lesson02.home01;
+package com.javarush.task.task01.lesson02.home01;
 
 /* Проход по дереву файлов
 1. На вход метода main подаются два параметра.

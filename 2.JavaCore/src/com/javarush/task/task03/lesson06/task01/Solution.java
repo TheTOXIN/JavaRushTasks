@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson06.task01;
+package com.javarush.task.task03.lesson06.task01;
 
 /* Dog, Cat и Mouse
 1. Создать классы Dog, Cat и Mouse.

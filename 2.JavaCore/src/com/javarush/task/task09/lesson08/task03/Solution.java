@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson08.task03;
+package com.javarush.task.task09.lesson08.task03;
 
 /* Выводим только цифры
 В методе main подмените объект System.out написанной вами ридер-оберткой по аналогии с лекцией

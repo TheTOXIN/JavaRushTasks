@@ -1,11 +1,9 @@
-package com.javarush.test.level19.lesson10.home04;
+package com.javarush.task.task09.lesson10.home04;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 

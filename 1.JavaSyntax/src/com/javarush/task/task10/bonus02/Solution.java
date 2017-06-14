@@ -1,8 +1,7 @@
-package com.javarush.test.level10.lesson11.bonus02;
+package com.javarush.task.task10.bonus02;
 
 import java.io.*;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 /* Нужно добавить в программу новую функциональность

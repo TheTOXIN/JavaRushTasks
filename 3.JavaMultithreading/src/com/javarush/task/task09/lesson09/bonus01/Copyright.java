@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson09.bonus01;
+package com.javarush.task.task09.lesson09.bonus01;
 
 public class Copyright implements Computable<Copyright.Period, String> {
     @Override

@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson02.task01;
+package com.javarush.task.task05.lesson02.task01;
 
 /* Новые возможности!
 Используя возможности enum-а реализуйте метод getLetterPosition, который должен возвращать позицию буквы (A - 1).

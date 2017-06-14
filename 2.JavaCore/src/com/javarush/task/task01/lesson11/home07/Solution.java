@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.home07;
+package com.javarush.task.task01.lesson11.home07;
 
 /* Вторая правильная «цепочка наследования»
 Расставь правильно «цепочку наследования» в классах:

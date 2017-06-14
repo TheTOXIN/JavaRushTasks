@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson05.task02;
+package com.javarush.task.task09.lesson05.task02;
 
 /* Считаем слово
 Считать с консоли имя файла.

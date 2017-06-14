@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson09.task01;
+package com.javarush.task.task05.lesson09.task01;
 
 /* Поживем - увидим
 Все исключения, которые возникают в процессе работы нити Solution, должны быть обработаны одним из вариантов:

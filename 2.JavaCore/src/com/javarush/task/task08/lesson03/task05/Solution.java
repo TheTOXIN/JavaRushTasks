@@ -1,10 +1,9 @@
-package com.javarush.test.level18.lesson03.task05;
+package com.javarush.task.task08.lesson03.task05;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 /* Сортировка байт

@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson05.task02;
+package com.javarush.task.task05.task0502;
 
 /* Реализовать метод fight
 Реализовать метод boolean fight(Cat anotherCat):

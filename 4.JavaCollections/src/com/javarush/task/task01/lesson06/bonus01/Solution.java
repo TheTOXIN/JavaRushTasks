@@ -1,4 +1,4 @@
-package com.javarush.test.level31.lesson06.bonus01;
+package com.javarush.task.task01.lesson06.bonus01;
 
 /* Разархивируем файл
 В метод main приходит список аргументов.

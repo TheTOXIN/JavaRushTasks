@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson07.task05;
+package com.javarush.task.task06.lesson07.task05;
 
 /* Аэропорт
 1. Разберись, что делает программа.

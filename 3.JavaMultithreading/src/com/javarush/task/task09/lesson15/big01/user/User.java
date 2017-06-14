@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson15.big01.user;
+package com.javarush.task.task09.lesson15.big01.user;
 
 public class User {
     private String name;

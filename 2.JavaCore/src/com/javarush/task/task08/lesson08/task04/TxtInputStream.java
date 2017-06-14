@@ -1,8 +1,7 @@
-package com.javarush.test.level18.lesson08.task04;
+package com.javarush.task.task08.lesson08.task04;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 /* UnsupportedFileName
 Измените класс TxtInputStream так, чтобы он работал только с txt-файлами (*.txt)

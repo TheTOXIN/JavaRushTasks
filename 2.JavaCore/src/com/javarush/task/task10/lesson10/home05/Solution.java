@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson10.home05;
+package com.javarush.task.task10.lesson10.home05;
 
 import java.io.PrintStream;
 import java.io.Serializable;

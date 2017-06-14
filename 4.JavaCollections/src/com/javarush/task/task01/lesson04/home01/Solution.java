@@ -1,9 +1,6 @@
-package com.javarush.test.level31.lesson04.home01;
+package com.javarush.task.task01.lesson04.home01;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 
 /* Своя реализация

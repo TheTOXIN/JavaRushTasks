@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson10.task02;
+package com.javarush.task.task01.lesson10.task02;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -22,7 +22,7 @@ public class Solution {
     public List<User> getUsers() {
         String query = "select ID, DISPLAYED_NAME, LEVEL, LESSON from USER";
 
-        List<User> result = new LinkedList();
+        List<User> result = new LinkedList<com.javarush.test.level21.lesson10.task02.Solution.User>();
 
         Statement stmt = null;
         ResultSet rs = null;

@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson02.task02;
+package com.javarush.task.task01.lesson02.task02;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;

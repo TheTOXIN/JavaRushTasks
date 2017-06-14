@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home01;
+package com.javarush.task.task07.lesson10.home01;
 
 import java.util.*;
 

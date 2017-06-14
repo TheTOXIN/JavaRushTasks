@@ -1,4 +1,4 @@
-package com.javarush.test.level03.lesson04.task05;
+package com.javarush.task.task03.task0305;
 
 /* Сумма 10 чисел
 Вывести на экран сумму чисел от 1 до 10 построчно (должно быть 10 строк):

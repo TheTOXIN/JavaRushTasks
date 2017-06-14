@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson06.home01;
+package com.javarush.task.task07.lesson06.home01;
 
 public class Apartment {
     private String location;

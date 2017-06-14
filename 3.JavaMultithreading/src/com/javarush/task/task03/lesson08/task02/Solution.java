@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson08.task02;
+package com.javarush.task.task03.lesson08.task02;
 
 /* Повторяем threads
 Сделать так, чтобы в методе someActions вызывались только методы класса Solution.

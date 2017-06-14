@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson04.task01;
+package com.javarush.task.task04.lesson04.task01;
 
 /* Building и School
 1. Расставь правильно наследование между Building(здание) и School(здание школы).

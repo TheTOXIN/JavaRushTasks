@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson04.task05;
+package com.javarush.task.task05.lesson04.task05;
 
 /* Все лишнее - прочь!
 Убрать в методе main лишние строки, для которых метод add нереализован.

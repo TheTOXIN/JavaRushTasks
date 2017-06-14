@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson03.task05;
+package com.javarush.task.task06.lesson03.task05;
 
 import java.util.Date;
 

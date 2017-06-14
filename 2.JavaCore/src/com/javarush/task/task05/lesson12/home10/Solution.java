@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home10;
+package com.javarush.task.task05.lesson12.home10;
 
 /* ООП - наследование
 Исправить класс Hrivna так, чтоб избежать ошибку StackOverflowError, класс Money менять нельзя.

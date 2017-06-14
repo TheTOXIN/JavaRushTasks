@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson08.task01;
+package com.javarush.task.task06.lesson08.task01;
 
 /* Вежливость - это искусственно созданное хорошее настроение.
 В классе Solution создайте public static класс IntegerHolder.

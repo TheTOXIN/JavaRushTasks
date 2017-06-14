@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson04.task03;
+package com.javarush.task.task05.lesson04.task03;
 
 /* ООП - Перегрузка - убираем лишнее
 1. Подумайте, какая из реализаций метода print будет вызвана.

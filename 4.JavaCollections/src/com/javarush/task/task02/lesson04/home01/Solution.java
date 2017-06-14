@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson04.home01;
+package com.javarush.task.task02.lesson04.home01;
 
 import java.io.FileInputStream;
 import java.io.IOException;

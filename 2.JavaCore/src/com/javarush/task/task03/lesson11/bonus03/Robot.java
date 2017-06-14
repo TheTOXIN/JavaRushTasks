@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson11.bonus03;
+package com.javarush.task.task03.lesson11.bonus03;
 
 public class Robot extends AbstractRobot
 {

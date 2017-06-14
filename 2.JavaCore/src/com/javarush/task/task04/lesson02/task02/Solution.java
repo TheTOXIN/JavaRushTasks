@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson02.task02;
+package com.javarush.task.task04.lesson02.task02;
 
 /* Bingo-2
 Исправь строчку 'Cat o = new Cat();' так, чтобы программа вывела "Bingo!"

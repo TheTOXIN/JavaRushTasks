@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson04.home02;
+package com.javarush.task.task04.lesson04.home02;
 
 public abstract class FirstClass implements Action {     //first implementation
 

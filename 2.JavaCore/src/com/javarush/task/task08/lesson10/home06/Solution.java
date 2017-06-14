@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home06;
+package com.javarush.task.task08.lesson10.home06;
 
 /* Встречаемость символов
 Программа запускается с одним параметром - именем файла, который содержит английский текст.
@@ -18,8 +18,6 @@ f 361
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class Solution {

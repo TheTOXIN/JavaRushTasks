@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson02.task01;
+package com.javarush.task.task04.lesson02.task01;
 
 /* Bingo
 Исправь строчку 'Object o = new Pet();' в методе main так, чтобы программа вывела "Bingo!"
@@ -8,7 +8,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        Object o = new Tiger();
+        com.javarush.test.level14.lesson02.task01.Solution.Tiger o = new Tiger();
         boolean isCat = o instanceof Cat;
         boolean isTiger = o instanceof Tiger;
         boolean isPet = o instanceof Pet;

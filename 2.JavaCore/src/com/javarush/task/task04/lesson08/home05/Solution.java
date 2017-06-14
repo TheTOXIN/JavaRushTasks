@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson08.home05;
+package com.javarush.task.task04.lesson08.home05;
 
 /* Computer
 1. Создай интерфейс CompItem.

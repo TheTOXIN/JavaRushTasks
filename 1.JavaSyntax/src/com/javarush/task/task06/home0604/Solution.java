@@ -1,4 +1,4 @@
-package com.javarush.test.level06.lesson11.home04;
+package com.javarush.task.task06.home0604;
 
 /* Минимальное количество static-ов
 Расставьте минимальное количество static-ов, чтобы код начал работать, и программа успешно завершилась

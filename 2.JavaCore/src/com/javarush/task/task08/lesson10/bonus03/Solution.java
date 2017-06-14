@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.bonus03;
+package com.javarush.task.task08.lesson10.bonus03;
 
 /* Прайсы 2
 CrUD для таблицы внутри файла

@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson06.task01;
+package com.javarush.task.task02.lesson06.task01;
 
 import java.io.ByteArrayOutputStream;
 

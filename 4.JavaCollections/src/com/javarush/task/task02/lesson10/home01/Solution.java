@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson10.home01;
+package com.javarush.task.task02.lesson10.home01;
 
 import java.rmi.AlreadyBoundException;
 import java.rmi.Remote;

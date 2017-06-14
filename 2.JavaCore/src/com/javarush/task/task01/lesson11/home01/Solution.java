@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.home01;
+package com.javarush.task.task01.lesson11.home01;
 
 /* Адам и Ева
 Написать два класса Adam(Адам) и Eve(Ева).

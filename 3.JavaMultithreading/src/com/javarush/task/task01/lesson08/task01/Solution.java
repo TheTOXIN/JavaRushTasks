@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson08.task01;
+package com.javarush.task.task01.lesson08.task01;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -28,7 +28,7 @@ public class Solution {
 //        }
     }
 
-    protected Map<String, User> users = new LinkedHashMap();
+    protected Map<String, User> users = new LinkedHashMap<String, com.javarush.test.level21.lesson08.task01.Solution.User>();
 
     public static class User {
         int age;

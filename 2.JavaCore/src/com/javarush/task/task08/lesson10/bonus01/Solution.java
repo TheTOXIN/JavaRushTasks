@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.bonus01;
+package com.javarush.task.task08.lesson10.bonus01;
 
 /* Шифровка
 Придумать механизм шифровки/дешифровки

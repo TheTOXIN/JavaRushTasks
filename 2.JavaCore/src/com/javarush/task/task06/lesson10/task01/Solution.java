@@ -1,9 +1,8 @@
-package com.javarush.test.level16.lesson10.task01;
+package com.javarush.task.task06.lesson10.task01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Date;
 
 /* Считаем секунды
 1. Напиши реализацию метода run в нити Stopwatch (секундомер).

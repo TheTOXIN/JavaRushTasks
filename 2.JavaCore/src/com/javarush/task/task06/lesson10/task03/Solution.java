@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson10.task03;
+package com.javarush.task.task06.lesson10.task03;
 
 /* Снова interrupt
 Создай нить TestThread.

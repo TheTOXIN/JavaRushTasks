@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson07.home02;
+package com.javarush.task.task05.lesson07.home02;
 
 import java.net.Socket;
 import java.util.concurrent.FutureTask;

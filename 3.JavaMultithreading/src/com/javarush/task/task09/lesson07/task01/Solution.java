@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson07.task01;
+package com.javarush.task.task09.lesson07.task01;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -18,9 +18,9 @@ public class Solution {
     final int MAX_BATCH_SIZE = 100; //будем вытаскивать по 100 сообщений
 
     private Logger logger = Logger.getLogger(Solution.class.getName());
-    private BlockingQueue messageQueue = new LinkedBlockingQueue();//тут будут храниться все сообщения
+    private BlockingQueue<String> messageQueue = new LinkedBlockingQueue<>();//тут будут храниться все сообщения
 
-    private BlockingQueue fakeDataBase = new LinkedBlockingQueue();//тут будут храниться все сообщения*/
+    private BlockingQueue<? extends Object> fakeDataBase = new LinkedBlockingQueue();//тут будут храниться все сообщения*/
 
     public void startMessageCreating() {
         new Thread() {
@@ -58,7 +58,7 @@ public class Solution {
         }
     }
 
-    private void persistData(Collection batch) {
+    private void persistData(Collection<? extends Object> batch) {
         //представим, что тут мы коннектимся к базе данных, и сохраняем данные в нее
         //сохранение данных по 1 записи тратит много ресурсов, поэтому делают батчем (группой по несколько)
         fakeDataBase.addAll(batch);

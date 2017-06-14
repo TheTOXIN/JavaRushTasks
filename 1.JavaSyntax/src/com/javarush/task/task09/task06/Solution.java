@@ -1,4 +1,4 @@
-package com.javarush.test.level09.lesson06.task01;
+package com.javarush.task.task09.task06;
 
 /* Исключение при работе с числами
 Перехватить исключение (и вывести его на экран), указав его тип, возникающее при выполнении кода:

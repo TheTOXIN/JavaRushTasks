@@ -1,4 +1,4 @@
-package com.javarush.test.level06.lesson11.bonus01;
+package com.javarush.task.task06.bonus0601;
 
 /* Нужно исправить программу, чтобы компилировалась и работала
 Задача: Программа вводит два числа с клавиатуры и выводит их максимум в виде «Max is 25»

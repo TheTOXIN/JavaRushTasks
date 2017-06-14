@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson04.task01;
+package com.javarush.task.task02.lesson04.task01;
 
 /* Пишем стек-трейс
 Реализуйте логику метода getStackTrace, который в виде одной строки должен возвращать весь стек-трейс переданного исключения.

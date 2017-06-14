@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson07.task02;
+package com.javarush.task.task05.task0507;
 
 /* Создать класс Cat
 Создать класс Cat (кот) с пятью инициализаторами:

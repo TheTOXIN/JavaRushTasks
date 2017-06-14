@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home09;
+package com.javarush.task.task06.lesson13.home09;
 
 /* Только по-очереди!
 1. В классе Solution создать нить public static Read3Strings унаследовавшись от Thread.

@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson04.home01;
+package com.javarush.task.task10.lesson04.home01;
 
 /* Экономим время
 1. Создайте Producer и Consumer (См. комментарий к методу main)

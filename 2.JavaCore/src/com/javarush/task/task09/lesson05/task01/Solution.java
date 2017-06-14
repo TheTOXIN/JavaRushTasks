@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson05.task01;
+package com.javarush.task.task09.lesson05.task01;
 
 /* Четные байты
 Считать с консоли 2 имени файла.
@@ -6,8 +6,6 @@ package com.javarush.test.level19.lesson05.task01;
 Пример: второй байт, четвертый байт, шестой байт и т.д.
 Закрыть потоки ввода-вывода.
 */
-
-import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 
 import java.io.*;
 

@@ -1,7 +1,4 @@
-package com.javarush.test.level28.lesson04.task01;
-
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.atomic.AtomicInteger;
+package com.javarush.task.task08.lesson04.task01;
 
 /* Пишем свою ThreadFactory
 В классе Solution создайте публичный статический класс AmigoThreadFactory, реализующий интерфейс ThreadFactory

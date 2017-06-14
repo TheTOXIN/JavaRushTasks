@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson04.task04;
+package com.javarush.task.task03.lesson04.task04;
 
 import java.awt.*;
 

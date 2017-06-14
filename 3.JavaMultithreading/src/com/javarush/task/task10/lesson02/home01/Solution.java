@@ -1,4 +1,6 @@
-package com.javarush.test.level30.lesson02.home01;
+package com.javarush.task.task10.lesson02.home01;
+
+import java.lang.*;
 
 /* Конвертер систем счислений
 Реализуйте логику метода convertNumberToOtherNumerationSystem, который должен переводить число number.getDigit()
@@ -9,12 +11,12 @@ package com.javarush.test.level30.lesson02.home01;
 */
 public class Solution {
     public static void main(String[] args) {
-        Number number = new Number(NumerationSystemType._10, "6");
-        Number result = convertNumberToOtherNumerationSystem(number, NumerationSystemType._2);
+        java.lang.Number number = new java.lang.Number(NumerationSystemType._10, "6");
+        java.lang.Number result = convertNumberToOtherNumerationSystem(number, NumerationSystemType._2);
         System.out.println(result);    //expected 110
     }
 
-    public static Number convertNumberToOtherNumerationSystem(Number number, NumerationSystem expectedNumerationSystem) {
+    public static java.lang.Number convertNumberToOtherNumerationSystem(java.lang.Number number, NumerationSystem expectedNumerationSystem) {
 
         return null;
     }

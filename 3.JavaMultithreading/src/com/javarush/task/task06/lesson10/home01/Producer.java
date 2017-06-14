@@ -1,11 +1,11 @@
-package com.javarush.test.level26.lesson10.home01;
+package com.javarush.task.task06.lesson10.home01;
 
 import java.util.concurrent.BlockingQueue;
 
 public class Producer implements Runnable {
-    protected BlockingQueue queue;
+    protected BlockingQueue<String> queue;
 
-    public Producer(BlockingQueue queue) {
+    public Producer(BlockingQueue<String> queue) {
         this.queue = queue;
     }
 

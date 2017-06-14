@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson02.task02;
+package com.javarush.task.task06.lesson02.task02;
 
 import java.util.Set;
 import java.util.TreeSet;

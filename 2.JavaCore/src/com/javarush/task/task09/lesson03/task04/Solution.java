@@ -1,8 +1,7 @@
-package com.javarush.test.level19.lesson03.task04;
+package com.javarush.task.task09.lesson03.task04;
 
 import java.io.IOException;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
 

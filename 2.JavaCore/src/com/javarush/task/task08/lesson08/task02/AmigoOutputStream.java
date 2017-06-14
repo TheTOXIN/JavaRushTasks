@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson08.task02;
+package com.javarush.task.task08.lesson08.task02;
 
 import java.io.IOException;
 

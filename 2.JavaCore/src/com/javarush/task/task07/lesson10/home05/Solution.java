@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home05;
+package com.javarush.task.task07.lesson10.home05;
 
 /* Лишняя синхронизация
 synchronized существенно замедляет программу, поэтому убери избыточность synchronized внутри методов

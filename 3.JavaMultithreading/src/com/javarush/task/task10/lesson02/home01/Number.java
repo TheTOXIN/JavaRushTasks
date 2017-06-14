@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson02.home01;
+package com.javarush.task.task10.lesson02.home01;
 
 public class Number {
     private NumerationSystem numerationSystem;

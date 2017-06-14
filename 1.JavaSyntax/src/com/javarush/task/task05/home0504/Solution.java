@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson12.home04;
+package com.javarush.task.task05.home0504;
 
 /* Вывести на экран сегодняшнюю дату
 Вывести на экран текущую дату в аналогичном виде "21 02 2014".

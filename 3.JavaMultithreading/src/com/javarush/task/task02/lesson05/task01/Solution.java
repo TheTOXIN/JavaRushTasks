@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson05.task01;
+package com.javarush.task.task02.lesson05.task01;
 
 /* Найти подстроку
 Метод getPartOfString должен возвращать подстроку начиная с символа после 1-го пробела и до конца слова,

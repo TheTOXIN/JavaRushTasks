@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson04.task02;
+package com.javarush.task.task07.lesson04.task02;
 
 /* Второй вариант дедлока
 В методе secondMethod в синхронизированных блоках расставьте локи так,

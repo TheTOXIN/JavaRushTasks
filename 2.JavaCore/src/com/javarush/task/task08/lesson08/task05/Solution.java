@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson08.task05;
+package com.javarush.task.task08.lesson08.task05;
 
 import java.util.List;
 

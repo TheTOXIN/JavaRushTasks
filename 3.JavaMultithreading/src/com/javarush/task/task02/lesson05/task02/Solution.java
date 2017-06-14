@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson05.task02;
+package com.javarush.task.task02.lesson05.task02;
 
 /* Между табуляциями
 Метод getPartOfString должен возвращать подстроку между первой и второй табуляцией.

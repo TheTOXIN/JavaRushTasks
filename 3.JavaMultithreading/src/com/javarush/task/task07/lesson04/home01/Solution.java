@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson04.home01;
+package com.javarush.task.task07.lesson04.home01;
 
 /* Модификаторы и дедлоки
 Расставьте модификаторы так, чтобы при работе с этим кодом появился дедлок

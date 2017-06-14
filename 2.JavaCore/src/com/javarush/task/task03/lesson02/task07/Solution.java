@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson02.task07;
+package com.javarush.task.task03.lesson02.task07;
 
 /* Параметризованый интерфейс
 В классе StringObject реализуй интерфейс SimpleObject с параметром типа String.

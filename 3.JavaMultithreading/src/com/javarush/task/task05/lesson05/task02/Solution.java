@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson05.task02;
+package com.javarush.task.task05.lesson05.task02;
 
 /* Без дураков
 1. Создай private class MyUncaughtExceptionHandler, который на перехват исключения должен подождать половину секунды,

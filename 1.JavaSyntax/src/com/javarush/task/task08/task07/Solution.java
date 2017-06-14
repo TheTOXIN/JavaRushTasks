@@ -1,4 +1,4 @@
-package com.javarush.test.level08.lesson06.task01;
+package com.javarush.task.task08.task07;
 
 import java.util.*;
 
@@ -8,13 +8,13 @@ import java.util.*;
 
 public class Solution
 {
-    public static Object createArrayList()
+    public static List<String> createArrayList()
     {
         List<String> arrayList = new ArrayList<String>();
         return arrayList;
     }
 
-    public static Object createLinkedList()
+    public static List<String> createLinkedList()
     {
         List<String> linkedList = new LinkedList<String>();
         return linkedList;

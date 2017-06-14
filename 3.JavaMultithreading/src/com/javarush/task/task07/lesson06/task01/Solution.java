@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson06.task01;
+package com.javarush.task.task07.lesson06.task01;
 
 /* Убираем deadLock
 Используя стратегию избегания deadLock-а сделайте так, чтобы он не возник.

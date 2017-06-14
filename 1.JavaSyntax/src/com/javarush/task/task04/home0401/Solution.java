@@ -1,4 +1,4 @@
-package com.javarush.test.level04.lesson16.home01;
+package com.javarush.task.task04.home0401;
 
 /* Я никогда не буду работать за копейки
 Используя цикл вывести на экран сто раз надпись:

@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson05.task05;
+package com.javarush.task.task05.task0505;
 
 /* Провести три боя  попарно между котами
 Создать три кота используя класс Cat.

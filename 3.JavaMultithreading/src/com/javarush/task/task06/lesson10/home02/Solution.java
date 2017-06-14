@@ -1,8 +1,4 @@
-package com.javarush.test.level26.lesson10.home02;
-
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+package com.javarush.task.task06.lesson10.home02;
 
 /* Мир не меняется, меняемся мы.
 Разберитесь с ConcurrentHashMap

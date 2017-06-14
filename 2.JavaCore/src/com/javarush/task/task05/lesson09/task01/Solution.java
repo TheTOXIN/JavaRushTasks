@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson09.task01;
+package com.javarush.task.task05.lesson09.task01;
 
 import java.util.HashMap;
 import java.util.Map;

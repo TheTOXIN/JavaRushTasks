@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson10.bonus04;
+package com.javarush.task.task10.lesson10.bonus04;
 
 import java.io.Serializable;
 import java.util.AbstractList;
@@ -122,7 +122,7 @@ public class Solution extends AbstractList<String> implements List<String>, Clon
     @Override
     public boolean add(String value)
     {
-        Node<String> newNode = new Node<>(value, parent);
+        Node<String> newNode = new Node<String>(value, parent);
 
         // если левый слот родительского нода пуст
         if (parent.left == null)

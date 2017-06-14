@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home02;
+package com.javarush.task.task08.lesson10.home02;
 
 /* Пробелы
 В метод main первым параметром приходит имя файла.

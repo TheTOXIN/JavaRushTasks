@@ -1,4 +1,4 @@
-package com.javarush.test.level31.lesson06.home01;
+package com.javarush.task.task01.lesson06.home01;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home07;
+package com.javarush.task.task08.lesson10.home07;
 
 /* Поиск данных внутри файла
 Считать с консоли имя файла
@@ -17,10 +17,7 @@ quantity - количество, int
 Информация по каждому товару хранится в отдельной строке
 */
 
-import java.io.BufferedWriter;
 import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 

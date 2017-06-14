@@ -1,4 +1,4 @@
-package com.javarush.test.level28.lesson02.task01;
+package com.javarush.task.task08.lesson02.task01;
 
 /* Осваиваем switch
 Реализуйте логику метода switchTest:

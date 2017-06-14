@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson04.task01;
+package com.javarush.task.task03.lesson04.task01;
 
 /* Inner
 Реализовать метод getTwoSolutions, который должен возвращать массив из 2-х экземпляров класса Solution.

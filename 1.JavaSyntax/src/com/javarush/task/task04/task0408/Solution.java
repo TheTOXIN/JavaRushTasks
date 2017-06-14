@@ -1,4 +1,4 @@
-package com.javarush.test.level04.lesson06.task03;
+package com.javarush.task.task04.task0408;
 
 /* Сортировка трех чисел
 Ввести с клавиатуры три числа, и вывести их в порядке убывания.

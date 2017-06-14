@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson06.task02;
+package com.javarush.task.task07.lesson06.task02;
 
 /* Предложения
 Не используя synchronized сделайте так, чтобы количество сделанных и принятых предложений было одинаковым.

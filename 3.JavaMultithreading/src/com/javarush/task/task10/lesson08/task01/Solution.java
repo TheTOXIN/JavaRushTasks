@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson08.task01;
+package com.javarush.task.task10.lesson08.task01;
 
 /* Найдем число 2 в максимальной степени
 Реализуйте логику метода maxPowerOf2,

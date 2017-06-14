@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home08;
+package com.javarush.task.task06.lesson13.home08;
 
 import java.io.BufferedReader;
 import java.io.IOException;

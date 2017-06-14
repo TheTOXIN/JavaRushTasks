@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson04.task01;
+package com.javarush.task.task10.lesson04.task01;
 
 import java.io.Serializable;
 

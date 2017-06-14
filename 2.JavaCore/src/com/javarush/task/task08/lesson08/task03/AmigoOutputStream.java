@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson08.task03;
+package com.javarush.task.task08.lesson08.task03;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

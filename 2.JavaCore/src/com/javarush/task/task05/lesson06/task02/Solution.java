@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson06.task02;
+package com.javarush.task.task05.lesson06.task02;
 
 /* Максимально простой код
 Посмотри, что, связанное с конструкторами, может быть добавлено при компиляции, но в этой программе уже присутствует.

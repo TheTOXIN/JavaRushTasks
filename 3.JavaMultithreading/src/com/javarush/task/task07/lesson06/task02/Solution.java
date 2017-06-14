@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson06.task02;
+package com.javarush.task.task07.lesson06.task02;
 
 /* Определяем порядок захвата монитора. Сложная.
 Реализуйте логику метода isNormalLockOrder, который должен определять:

@@ -1,4 +1,4 @@
-package com.javarush.test.level31.lesson10.home01;
+package com.javarush.task.task01.lesson10.home01;
 
 import java.util.Properties;
 

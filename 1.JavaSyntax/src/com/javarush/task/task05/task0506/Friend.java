@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson07.task01;
+package com.javarush.task.task05.task0506;
 
 /* Создать класс Friend
 Создать класс Friend (друг) с тремя инициализаторами (тремя методами initialize):

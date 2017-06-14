@@ -1,4 +1,4 @@
-package com.javarush.test.level29.lesson09.bonus01;
+package com.javarush.task.task09.lesson09.bonus01;
 
 public class Square implements Computable<Integer, Integer> {
     @Override

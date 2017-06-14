@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson05.home01;
+package com.javarush.task.task02.lesson05.home01;
 
 public class Task implements Runnable {
     private String initialString;

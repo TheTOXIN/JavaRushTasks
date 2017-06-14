@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson05.task01;
+package com.javarush.task.task06.lesson05.task01;
 
 import java.util.ArrayList;
 import java.util.List;

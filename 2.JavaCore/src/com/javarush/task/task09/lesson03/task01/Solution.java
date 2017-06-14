@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson03.task01;
+package com.javarush.task.task09.lesson03.task01;
 
 /* TableAdapter
 Измените класс TableAdapter так, чтобы он адаптировал ATable к BTable.

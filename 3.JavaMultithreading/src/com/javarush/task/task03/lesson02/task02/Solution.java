@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson02.task02;
+package com.javarush.task.task03.lesson02.task02;
 
 /* Запретите переопределение
 Запретите переопределение метода onMouseDown.

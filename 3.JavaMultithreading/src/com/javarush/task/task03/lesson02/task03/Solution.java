@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson02.task03;
+package com.javarush.task.task03.lesson02.task03;
 
 /* Запретите создание экземпляров класса
 Запретите создание экземпляров класса Listener.

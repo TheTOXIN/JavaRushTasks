@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson05.task03;
+package com.javarush.task.task08.lesson05.task03;
 
 /* Разделение файла
 Считать с консоли три имени файла: файл1, файл2, файл3.

@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson05.task03;
+package com.javarush.task.task06.lesson05.task03;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,7 +19,7 @@ public class Solution {
     private final URL javarushVkGroupUrl3Child;
 
     private ExecutorService executorService;
-    private final Set<URL> urlsForProcessing = new HashSet();
+    private final Set<URL> urlsForProcessing = new HashSet<>();
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
         Solution solution = new Solution();

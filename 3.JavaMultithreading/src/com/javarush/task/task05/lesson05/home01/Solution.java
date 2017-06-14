@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson05.home01;
+package com.javarush.task.task05.lesson05.home01;
 
 /* Мониторинг состояния нити
 В отдельном классе создать нить LoggingStateThread,

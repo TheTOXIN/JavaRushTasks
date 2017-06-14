@@ -1,4 +1,4 @@
-package com.javarush.test.level05.lesson07.task03;
+package com.javarush.task.task05.task0508;
 
 /* Создать класс Dog
 Создать класс Dog (собака) с тремя инициализаторами:

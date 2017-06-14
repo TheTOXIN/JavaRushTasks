@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson08.task05;
+package com.javarush.task.task09.lesson08.task05;
 
 /* Дублируем текст
 Считайте с консоли имя файла

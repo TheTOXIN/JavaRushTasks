@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson02.task08;
+package com.javarush.task.task03.lesson02.task08;
 
 /* Жив или нет
 1. Создай интерфейс Person.

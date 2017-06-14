@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home10;
+package com.javarush.task.task07.lesson10.home10;
 
 /* Посчитаем
 1. Сделай так, чтобы результат успел посчитаться для всех элементов массива values НЕ используя Thread.sleep

@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson06.task01;
+package com.javarush.task.task03.lesson06.task01;
 
 /* Как выбрать нужное?
 В методе main присвойте объекту Object obj экземпляр класса TEST
@@ -14,7 +14,7 @@ public class Solution {
         }
     }
 
-    static Object obj;
+    static String obj;
 
     public static void main(String[] args) {
         obj = Solution.TEST;

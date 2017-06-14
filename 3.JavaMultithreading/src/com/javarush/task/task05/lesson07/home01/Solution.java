@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson07.home01;
+package com.javarush.task.task05.lesson07.home01;
 
 /* Не валять дурака
 Восстановите логику класса TaskManipulator.

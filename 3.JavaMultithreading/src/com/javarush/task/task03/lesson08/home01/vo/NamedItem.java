@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson08.home01.vo;
+package com.javarush.task.task03.lesson08.home01.vo;
 
 public class NamedItem {
     private int id;

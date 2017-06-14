@@ -1,6 +1,4 @@
-package com.javarush.test.level28.lesson04.task02;
-
-import java.util.concurrent.ThreadLocalRandom;
+package com.javarush.task.task08.lesson04.task02;
 
 /* ThreadLocalRandom
 Класс Solution будет использоваться трэдами.

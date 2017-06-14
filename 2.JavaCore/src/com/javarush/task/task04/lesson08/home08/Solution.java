@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson08.home08;
+package com.javarush.task.task04.lesson08.home08;
 
 /* Исправление ошибок
 1. Подумать, как связаны интерфейсы Swimable(способен плавать) и Walkable(способен ходить) с классом OceanAnimal(животное океана).

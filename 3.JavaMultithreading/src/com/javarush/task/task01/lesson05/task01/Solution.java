@@ -1,7 +1,6 @@
-package com.javarush.test.level21.lesson05.task01;
+package com.javarush.task.task01.lesson05.task01;
 
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 /* Equals and HashCode

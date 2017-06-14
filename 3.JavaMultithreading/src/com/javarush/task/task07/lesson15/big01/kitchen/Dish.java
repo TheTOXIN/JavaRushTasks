@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson15.big01.kitchen;
+package com.javarush.task.task07.lesson15.big01.kitchen;
 
 import java.util.Arrays;
 

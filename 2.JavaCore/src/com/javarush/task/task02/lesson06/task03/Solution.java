@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson06.task03;
+package com.javarush.task.task02.lesson06.task03;
 
 /* Исправь код. Вторая задача
 Исправь код, чтобы программа компилировалась.

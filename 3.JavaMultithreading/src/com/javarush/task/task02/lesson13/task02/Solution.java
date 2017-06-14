@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson13.task02;
+package com.javarush.task.task02.lesson13.task02;
 
 import java.io.IOException;
 

@@ -1,8 +1,4 @@
-package com.javarush.test.level28.lesson08.task02;
-
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+package com.javarush.task.task08.lesson08.task02;
 
 /* Знакомство с ThreadPoolExecutor
 1. В методе main создай очередь LinkedBlockingQueue<Runnable>

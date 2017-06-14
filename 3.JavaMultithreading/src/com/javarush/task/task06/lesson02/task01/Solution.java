@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson02.task01;
+package com.javarush.task.task06.lesson02.task01;
 
 /* Почитать в инете про медиану выборки
 Реализовать логику метода sort, который должен сортировать данные в массиве по удаленности от его медианы

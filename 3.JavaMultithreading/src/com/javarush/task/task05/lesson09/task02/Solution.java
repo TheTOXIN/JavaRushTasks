@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson09.task02;
+package com.javarush.task.task05.lesson09.task02;
 
 import java.util.TimerTask;
 

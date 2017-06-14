@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.bonus03;
+package com.javarush.task.task06.lesson13.bonus03;
 
 /* Отдебажим все на свете
 Разобраться, что делает програма.

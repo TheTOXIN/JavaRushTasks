@@ -1,10 +1,7 @@
-package com.javarush.test.level14.lesson04.task02;
+package com.javarush.task.task04.lesson04.task02;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-
-import static com.javarush.test.level14.lesson04.task02.Solution.CatFactory.getCatByKey;
 
 /* Коты
 1. Считывать строки(параметры) с консоли, пока пользователь не введет пустую строку(Enter).

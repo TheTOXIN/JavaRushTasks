@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson09.task03;
+package com.javarush.task.task05.lesson09.task03;
 
 /* Статики 3
 1. Создать 7 public полей класса. Убедитесь, что они инициализируются дефолтными значениями.

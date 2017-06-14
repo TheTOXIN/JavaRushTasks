@@ -1,4 +1,4 @@
-package com.javarush.test.level08.lesson06.task05;
+package com.javarush.task.task08.task11;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -11,28 +11,28 @@ import java.util.List;
 
 public class Solution
 {
-    public static List  getListForGet()
+    public static List<? extends String> getListForGet()
     {
         //напишите тут ваш код
         ArrayList<String> arrayList = new ArrayList<String>();
         return arrayList;
     }
 
-    public static List  getListForSet()
+    public static List<? extends String> getListForSet()
     {
         //напишите тут ваш код
         ArrayList<String> arrayList = new ArrayList<String>();
         return arrayList;
     }
 
-    public static List  getListForAddOrInsert()
+    public static List<? extends String> getListForAddOrInsert()
     {
         //напишите тут ваш код
         LinkedList<String> linkedList = new LinkedList<String>();
         return linkedList;
     }
 
-    public static List  getListForRemove()
+    public static List<? extends String> getListForRemove()
     {
         //напишите тут ваш код
         LinkedList<String> linkedList = new LinkedList<String>();

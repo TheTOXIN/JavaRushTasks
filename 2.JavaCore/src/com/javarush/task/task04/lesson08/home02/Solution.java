@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson08.home02;
+package com.javarush.task.task04.lesson08.home02;
 
 /* Дегустация вин
 1. Создать абстрактный класс Drink с реализованным методом public void taste(), который выводит в консоль "Вкусно"

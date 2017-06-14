@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson04.task04;
+package com.javarush.task.task05.lesson04.task04;
 
 /* Мужчина или женщина?
 1. В методе main создать 2 человека man и woman. man с типом Man, woman с типом Woman.

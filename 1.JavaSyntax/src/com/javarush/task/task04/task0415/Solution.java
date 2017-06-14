@@ -1,4 +1,4 @@
-package com.javarush.test.level04.lesson10.task04;
+package com.javarush.task.task04.task0415;
 
 /* S-квадрат
 Вывести на экран квадрат из 10х10 букв S используя цикл while.

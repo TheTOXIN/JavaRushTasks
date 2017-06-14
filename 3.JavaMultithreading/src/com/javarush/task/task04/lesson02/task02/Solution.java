@@ -1,9 +1,4 @@
-package com.javarush.test.level24.lesson02.task02;
-
-import java.io.Serializable;
-import java.rmi.Remote;
-import java.rmi.server.RemoteObject;
-import java.util.EventListener;
+package com.javarush.task.task04.lesson02.task02;
 
 /* Так-с...сопоставим
 Исправьте ошибки: переместите методы clone в те классы, в которых они должны быть реализованы.

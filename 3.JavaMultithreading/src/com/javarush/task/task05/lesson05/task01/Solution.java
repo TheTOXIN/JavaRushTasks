@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson05.task01;
+package com.javarush.task.task05.lesson05.task01;
 
 /* Switch для нитей
 Обработайте список нитей в зависимости от состояния:

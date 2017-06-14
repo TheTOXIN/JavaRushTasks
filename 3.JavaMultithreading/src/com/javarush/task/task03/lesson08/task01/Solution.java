@@ -1,4 +1,4 @@
-package com.javarush.test.level23.lesson08.task01;
+package com.javarush.task.task03.lesson08.task01;
 
 /* Напряги извилины!
 Метод printName должен выводить свое собственное имя, т.е. "sout"

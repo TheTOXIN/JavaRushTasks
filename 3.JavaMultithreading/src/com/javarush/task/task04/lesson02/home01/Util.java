@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson02.home01;
+package com.javarush.task.task04.lesson02.home01;
 
 public class Util {
 //    //пример того, как можно использовать интерфейс-маркер

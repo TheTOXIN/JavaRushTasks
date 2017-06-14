@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson03.task02;
+package com.javarush.task.task06.lesson03.task02;
 
 /* My second thread
 1. Создать public static класс TestThread унаследовавшись от класса Thread.

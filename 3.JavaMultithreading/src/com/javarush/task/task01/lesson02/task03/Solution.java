@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson02.task03;
+package com.javarush.task.task01.lesson02.task03;
 
 /* Все гениальное - просто!
 Упростить. Переменные не переименовывать, комментарии не оставлять.

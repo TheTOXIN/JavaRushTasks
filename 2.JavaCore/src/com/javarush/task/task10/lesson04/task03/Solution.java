@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson04.task03;
+package com.javarush.task.task10.lesson04.task03;
 
 import java.io.*;
 
@@ -48,7 +48,7 @@ public class Solution implements Serializable {
         private Singleton() {
         }
 
-        private Object readResolve()  {
+        private com.javarush.test.level20.lesson04.task03.Solution.Singleton readResolve()  {
             return ourInstance;
         }
     }

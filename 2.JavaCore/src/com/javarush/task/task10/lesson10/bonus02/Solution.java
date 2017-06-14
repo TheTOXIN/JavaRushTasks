@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson10.bonus02;
+package com.javarush.task.task10.lesson10.bonus02;
 
 /* Алгоритмы-прямоугольники
 1. Дан двумерный массив N*N, который содержит несколько прямоугольников.

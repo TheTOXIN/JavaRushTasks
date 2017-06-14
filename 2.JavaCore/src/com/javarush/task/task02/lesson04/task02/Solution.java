@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson04.task02;
+package com.javarush.task.task02.lesson04.task02;
 
 /* print(int) и print(Integer)
 Написать два метода: print(int) и print(Integer).

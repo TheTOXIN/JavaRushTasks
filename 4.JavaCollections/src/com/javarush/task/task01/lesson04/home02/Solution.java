@@ -1,9 +1,7 @@
-package com.javarush.test.level31.lesson04.home02;
+package com.javarush.task.task01.lesson04.home02;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;

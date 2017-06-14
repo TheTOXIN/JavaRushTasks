@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson08.home01;
+package com.javarush.task.task04.lesson08.home01;
 
 /* Мосты
 1. Создать интерфейс Bridge с методом int getCarsCount().

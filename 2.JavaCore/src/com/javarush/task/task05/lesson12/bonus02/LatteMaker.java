@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.bonus02;
+package com.javarush.task.task05.lesson12.bonus02;
 
 public class LatteMaker extends DrinkMaker {
 

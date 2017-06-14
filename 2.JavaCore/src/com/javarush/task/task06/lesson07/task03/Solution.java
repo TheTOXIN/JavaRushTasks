@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson07.task03;
+package com.javarush.task.task06.lesson07.task03;
 
 /* Big Ben clock
 1. Разберись, что делает программа.

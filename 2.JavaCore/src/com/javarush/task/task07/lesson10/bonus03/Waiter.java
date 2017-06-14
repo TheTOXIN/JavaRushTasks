@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.bonus03;
+package com.javarush.task.task07.lesson10.bonus03;
 
 public class Waiter implements Runnable {
     public boolean continueWorking = true;

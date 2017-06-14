@@ -1,4 +1,4 @@
-package com.javarush.test.level27.lesson02.task02;
+package com.javarush.task.task07.lesson02.task02;
 
 /* Нужный оператор
 Вставьте в код единственную строчку - оператор (не break), чтобы выводился треугольник из букв S

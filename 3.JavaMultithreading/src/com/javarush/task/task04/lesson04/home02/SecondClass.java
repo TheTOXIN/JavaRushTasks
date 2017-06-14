@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson04.home02;
+package com.javarush.task.task04.lesson04.home02;
 
 public class SecondClass implements Action {   //second implementation
     public static String SPECIFIC_ACTION_FOR_ANONYMOUS_SECOND_CLASS_PARAM = "\nSpecific action for anonymous SecondClass, param = ";

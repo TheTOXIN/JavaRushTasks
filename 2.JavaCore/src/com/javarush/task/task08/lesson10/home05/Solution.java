@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home05;
+package com.javarush.task.task08.lesson10.home05;
 
 /* Округление чисел
 Считать с консоли 2 имени файла

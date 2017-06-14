@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson04.task04;
+package com.javarush.task.task04.lesson04.task04;
 
 /* Без ошибок
 Инициализировать объект obj таким классом, чтобы метод main выполнился без ошибок.
@@ -8,9 +8,9 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        Object obj = new Jerry();
+        com.javarush.test.level14.lesson04.task04.Solution.Jerry obj = new Jerry();
 
-        Mouse mouse = (Mouse) obj;
+        Mouse mouse = obj;
         GreyMouse greyMouse = (GreyMouse) mouse;
         Jerry jerry = (Jerry) greyMouse;
 
@@ -18,7 +18,7 @@ public class Solution
 
     }
 
-    public static void printClasses(Object obj, Mouse mouse, GreyMouse greyMouse, Jerry jerry)
+    public static void printClasses(com.javarush.test.level14.lesson04.task04.Solution.Jerry obj, Mouse mouse, GreyMouse greyMouse, Jerry jerry)
     {
         System.out.println(jerry.getClass().getSimpleName());
         System.out.println(greyMouse.getClass().getSimpleName());

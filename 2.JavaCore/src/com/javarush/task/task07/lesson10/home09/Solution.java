@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home09;
+package com.javarush.task.task07.lesson10.home09;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

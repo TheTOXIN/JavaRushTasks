@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home03;
+package com.javarush.task.task06.lesson13.home03;
 
 /* Рекурсивное создание нитей
 1. Измени класс GenerateThread так, чтобы он стал нитью.

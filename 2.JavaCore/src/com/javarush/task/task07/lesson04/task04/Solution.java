@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson04.task04;
+package com.javarush.task.task07.lesson04.task04;
 
 /* Синхронизированный президент
 И снова Singleton паттерн - синхронизация в статическом блоке

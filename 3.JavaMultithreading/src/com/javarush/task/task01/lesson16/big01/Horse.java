@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson16.big01;
+package com.javarush.task.task01.lesson16.big01;
 
 public class Horse {
     public String name;

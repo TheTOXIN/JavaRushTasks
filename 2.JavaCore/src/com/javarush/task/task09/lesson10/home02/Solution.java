@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson10.home02;
+package com.javarush.task.task09.lesson10.home02;
 
 /* Самый богатый
 В метод main первым параметром приходит имя файла.

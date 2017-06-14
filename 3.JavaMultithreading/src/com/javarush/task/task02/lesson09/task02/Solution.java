@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson09.task02;
+package com.javarush.task.task02.lesson09.task02;
 
 import java.util.Map;
 

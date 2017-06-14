@@ -1,4 +1,4 @@
-package com.javarush.test.level20.lesson07.task02;
+package com.javarush.task.task10.lesson07.task02;
 
 import java.io.Externalizable;
 import java.io.IOException;

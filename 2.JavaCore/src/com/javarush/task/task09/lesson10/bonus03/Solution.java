@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson10.bonus03;
+package com.javarush.task.task09.lesson10.bonus03;
 
 /* Знакомство с тегами
 Считайте с консоли имя файла, который имеет HTML-формат

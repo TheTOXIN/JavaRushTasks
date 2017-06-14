@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson05.task03;
+package com.javarush.task.task09.lesson05.task03;
 
 /* Выделяем числа
 Считать с консоли 2 имени файла.
@@ -12,8 +12,6 @@ package com.javarush.test.level19.lesson05.task03;
 Результат:
 12 14 1
 */
-
-import com.sun.org.apache.xpath.internal.operations.Number;
 
 import java.io.*;
 import java.util.Scanner;

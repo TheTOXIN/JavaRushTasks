@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home05;
+package com.javarush.task.task05.lesson12.home05;
 
 /* Перегрузка конструкторов
 1. В классе Solution создайте по 3 конструктора для каждого модификатора доступа.

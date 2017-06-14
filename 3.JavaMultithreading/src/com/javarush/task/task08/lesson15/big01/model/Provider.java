@@ -1,4 +1,4 @@
-package com.javarush.test.level28.lesson15.big01.model;
+package com.javarush.task.task08.lesson15.big01.model;
 
 public class Provider {
     private Strategy strategy;

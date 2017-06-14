@@ -1,9 +1,6 @@
-package com.javarush.test.level25.lesson02.task02;
+package com.javarush.task.task05.lesson02.task02;
 
-import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Set;
 
 /* Машину на СТО не повезем!
 Инициализируйте поле wheels используя данные из loadWheelNamesFromDB.

@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson02.task02;
+package com.javarush.task.task03.lesson02.task02;
 
 /* Пиво: возвращение
 Добавь к классу AlcoholicBeer интерфейс Drink и реализуй все нереализованные методы.

@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home10;
+package com.javarush.task.task08.lesson10.home10;
 
 /* Собираем файл
 Собираем файл из кусочков

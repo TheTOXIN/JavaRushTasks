@@ -1,4 +1,4 @@
-package com.javarush.test.level18.lesson10.home09;
+package com.javarush.task.task08.lesson10.home09;
 
 /* Файлы и исключения
 Читайте с консоли имена файлов
@@ -9,7 +9,6 @@ package com.javarush.test.level18.lesson10.home09;
 */
 
 import java.io.*;
-import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) throws IOException {

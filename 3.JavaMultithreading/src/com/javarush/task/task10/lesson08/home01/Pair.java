@@ -1,4 +1,4 @@
-package com.javarush.test.level30.lesson08.home01;
+package com.javarush.task.task10.lesson08.home01;
 
 public class Pair {
     private int x;

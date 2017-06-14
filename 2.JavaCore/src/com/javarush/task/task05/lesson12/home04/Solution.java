@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home04;
+package com.javarush.task.task05.lesson12.home04;
 
 /* Закрепляем Singleton pattern
 1. Найти в гугле пример для - Singleton pattern Lazy initialization.

@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson11.home02;
+package com.javarush.task.task03.lesson11.home02;
 
 public interface Weather
 {

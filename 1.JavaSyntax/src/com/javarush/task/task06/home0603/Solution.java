@@ -1,4 +1,4 @@
-package com.javarush.test.level06.lesson11.home03;
+package com.javarush.task.task06.home0603;
 
 /* Переставь один модификатор static
 Переставь один модификатор static, чтобы пример скомпилировался.

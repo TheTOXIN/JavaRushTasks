@@ -1,4 +1,4 @@
-package com.javarush.test.level21.lesson08.task02;
+package com.javarush.task.task01.lesson08.task02;
 
 /* Клонирование
 Класс Plant не должен реализовывать интерфейс Cloneable

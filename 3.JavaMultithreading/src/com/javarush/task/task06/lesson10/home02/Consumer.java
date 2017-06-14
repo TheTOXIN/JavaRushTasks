@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson10.home02;
+package com.javarush.task.task06.lesson10.home02;
 
 import java.util.concurrent.ConcurrentHashMap;
 

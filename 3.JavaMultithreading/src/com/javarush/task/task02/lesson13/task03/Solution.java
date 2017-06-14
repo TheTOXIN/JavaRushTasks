@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson13.task03;
+package com.javarush.task.task02.lesson13.task03;
 
 /* Проверка номера телефона
 Метод checkTelNumber должен проверять, является ли аргумент telNumber валидным номером телефона.

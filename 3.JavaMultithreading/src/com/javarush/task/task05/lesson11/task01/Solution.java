@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson11.task01;
+package com.javarush.task.task05.lesson11.task01;
 
 import java.util.Random;
 

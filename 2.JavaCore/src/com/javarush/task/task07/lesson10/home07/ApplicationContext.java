@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home07;
+package com.javarush.task.task07.lesson10.home07;
 
 import java.util.HashMap;
 import java.util.Map;

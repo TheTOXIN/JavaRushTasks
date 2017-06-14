@@ -1,4 +1,4 @@
-package com.javarush.test.level22.lesson07.task02;
+package com.javarush.task.task02.lesson07.task02;
 
 /* МНЕ нравится курс JavaRush
 Исправить метод getFormattedString так, чтобы он возвращал строку с параметрами для форматирования.

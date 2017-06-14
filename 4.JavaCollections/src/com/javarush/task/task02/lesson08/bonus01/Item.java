@@ -1,4 +1,4 @@
-package com.javarush.test.level32.lesson08.bonus01;
+package com.javarush.task.task02.lesson08.bonus01;
 
 public interface Item {
 }

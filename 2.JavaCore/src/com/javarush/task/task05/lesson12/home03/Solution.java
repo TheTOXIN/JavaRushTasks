@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home03;
+package com.javarush.task.task05.lesson12.home03;
 
 import java.math.BigDecimal;
 
@@ -15,9 +15,9 @@ public class Solution {
     public static void main(String[] args) {
         //Блок 2.
         //Вызов для Object (задание 2)
-        new Tree().info((Object)new Integer("4"));
-        new Tree().info((Object)new Short("4"));
-        new Tree().info((Object)new BigDecimal("4"));
+        new Tree().info((Integer)new Integer("4"));
+        new Tree().info((Short)new Short("4"));
+        new Tree().info((BigDecimal)new BigDecimal("4"));
 
         //Блок 3.
         //Вызов для Number (Задание 3)

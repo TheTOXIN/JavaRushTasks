@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson16.big01;
+package com.javarush.task.task05.lesson16.big01;
 
 /**
  * Класс для космического корабля

@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson05.task05;
+package com.javarush.task.task09.lesson05.task05;
 
 /* Пунктуация
 Считать с консоли 2 имени файла.

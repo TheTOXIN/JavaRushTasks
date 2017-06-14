@@ -1,8 +1,7 @@
-package com.javarush.test.level08.lesson03.task06;
+package com.javarush.task.task08.task06;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 /* Коллекция HashMap из Object
 Есть коллекция HashMap<String, Object>, туда занесли 10 различных пар объектов.

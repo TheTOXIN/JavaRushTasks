@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson09.task05;
+package com.javarush.task.task05.lesson09.task05;
 
 /* Статики 4
 Внутри статического блока:
@@ -11,7 +11,7 @@ package com.javarush.test.level15.lesson09.task05;
 
 public class Solution {
 
-    public static Object cat;
+    public static Cat cat;
 
     static
     {

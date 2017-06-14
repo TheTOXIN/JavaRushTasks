@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.home06;
+package com.javarush.task.task06.lesson13.home06;
 
 /* Создание по образцу
 Разберись, как работает программа.

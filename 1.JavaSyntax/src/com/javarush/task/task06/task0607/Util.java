@@ -1,4 +1,4 @@
-package com.javarush.test.level06.lesson08.task03;
+package com.javarush.task.task06.task0607;
 
 /* Класс Util
 Реализовать статический метод double getDistance(x1, y1, x2, y2). Он должен вычислять расстояние между точками.

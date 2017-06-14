@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson10.home01;
+package com.javarush.task.task06.lesson10.home01;
 
 /* Мир скучен для скучных людей.
 Разберитесь с BlockingQueue

@@ -1,4 +1,4 @@
-package com.javarush.test.level24.lesson06.home01;
+package com.javarush.task.task04.lesson06.home01;
 
 /*
 обратите внимание, как именно Mouse отличается от Cat

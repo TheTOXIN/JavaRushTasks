@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson08.task03;
+package com.javarush.task.task01.lesson08.task03;
 
 /* Ничего не поменяешь
 Скрыть все внутренние переменные класса Cat,

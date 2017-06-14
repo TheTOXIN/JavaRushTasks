@@ -1,4 +1,4 @@
-package com.javarush.test.level00.lesson03.task03;
+package com.javarush.task.task01.task0104;
 
 /**
  * Created by noliv_000 on 05.10.2014.

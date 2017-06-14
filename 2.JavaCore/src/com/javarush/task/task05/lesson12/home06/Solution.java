@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home06;
+package com.javarush.task.task05.lesson12.home06;
 
 /* Порядок загрузки переменных
 Разобраться, что в какой последовательности инициализируется.

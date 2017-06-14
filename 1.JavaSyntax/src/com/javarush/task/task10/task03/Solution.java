@@ -1,4 +1,4 @@
-package com.javarush.test.level10.lesson04.task03;
+package com.javarush.task.task10.task03;
 
 /* Задача №3 на преобразование целых типов
 Добавить одну операцию по преобразованию типа, чтобы получался ответ: b=0

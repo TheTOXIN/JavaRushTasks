@@ -1,4 +1,4 @@
-package com.javarush.test.level12.lesson09.task03;
+package com.javarush.task.task02.lesson09.task03;
 /* Fly, Move, Eat для классов Dog, Car, Duck, Airplane
 Есть public интерфейсы Fly(летать), Move(передвигаться), Eat(есть).
 Добавь эти интерфейсы классам Dog(собака), Car(автомобиль), Duck(утка), Airplane(самолет).

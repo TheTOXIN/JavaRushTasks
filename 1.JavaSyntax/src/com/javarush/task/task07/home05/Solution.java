@@ -1,4 +1,4 @@
-package com.javarush.test.level07.lesson12.home05;
+package com.javarush.task.task07.home05;
 
 /* Бум
 Написать программу, которая ведёт обратный отсчёт с 30 до 0, и в конце выводит на экран текст «Бум!».

@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson02.task05;
+package com.javarush.task.task05.lesson02.task05;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Solution {
     public static interface Alive {
-        Object containsBones();
+        String containsBones();
     }
 
     public static class BodyPart implements Alive {
@@ -21,7 +21,7 @@ public class Solution {
             this.name = name;
         }
 
-        public Object containsBones() {
+        public String containsBones() {
             return "Yes";
         }
 
@@ -41,7 +41,7 @@ public class Solution {
             this.isFoot = isFoot;
         }
 
-        public Object containsBones() {
+        public String containsBones() {
             if (super.containsBones().equals("Yes") && !isFoot ) {return "Yes";} else return "No";
         }
     }

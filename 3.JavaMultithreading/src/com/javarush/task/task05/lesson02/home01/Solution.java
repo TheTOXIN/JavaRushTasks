@@ -1,4 +1,4 @@
-package com.javarush.test.level25.lesson02.home01;
+package com.javarush.task.task05.lesson02.home01;
 
 /* Свой enum
 Реализуйте интерфейс Columnable у Column, описание методов смотрите в джавадоках.

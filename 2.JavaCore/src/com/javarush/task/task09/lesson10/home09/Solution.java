@@ -1,4 +1,4 @@
-package com.javarush.test.level19.lesson10.home09;
+package com.javarush.task.task09.lesson10.home09;
 
 /* Контекстная реклама
 В методе main подмените объект System.out написанной вами реадер-оберткой
@@ -18,9 +18,7 @@ JavaRush - курсы Java онлайн
 fifth
 */
 
-import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
-import java.io.InputStreamReader;
 import java.io.PrintStream;
 
 public class Solution {

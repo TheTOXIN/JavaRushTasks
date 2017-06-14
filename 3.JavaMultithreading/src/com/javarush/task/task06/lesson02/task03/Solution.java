@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson02.task03;
+package com.javarush.task.task06.lesson02.task03;
 
 /* Убежденному убеждать других не трудно.
 В таблице есть колонки, по которым можно сортировать.

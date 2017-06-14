@@ -1,4 +1,4 @@
-package com.javarush.test.level11.lesson11.home10;
+package com.javarush.task.task01.lesson11.home10;
 
 /* Пятая правильная «цепочка наследования»
 Расставь правильно «цепочку наследования» в классах:

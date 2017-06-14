@@ -1,4 +1,4 @@
-package com.javarush.test.level15.lesson12.home03;
+package com.javarush.task.task05.lesson12.home03;
 
 public class Tree {
     public static int globalNumber;

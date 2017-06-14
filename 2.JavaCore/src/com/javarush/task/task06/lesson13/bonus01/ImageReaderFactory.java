@@ -1,4 +1,4 @@
-package com.javarush.test.level16.lesson13.bonus01;
+package com.javarush.task.task06.lesson13.bonus01;
 
 import com.javarush.test.level16.lesson13.bonus01.common.*;
 

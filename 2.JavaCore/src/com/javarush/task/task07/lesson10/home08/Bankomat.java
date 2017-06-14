@@ -1,4 +1,4 @@
-package com.javarush.test.level17.lesson10.home08;
+package com.javarush.task.task07.lesson10.home08;
 
 /* Банкомат
 Разберись, как работает программа

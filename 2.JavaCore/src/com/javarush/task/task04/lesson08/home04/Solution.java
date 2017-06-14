@@ -1,4 +1,4 @@
-package com.javarush.test.level14.lesson08.home04;
+package com.javarush.task.task04.lesson08.home04;
 
 /* Реализовать метод printMainInfo
 1. Напиши реализацию метода printMainInfo, чтобы:
@@ -11,8 +11,8 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        Object obj = new Circle();
-        Movable movable = (Movable) obj;
+        com.javarush.test.level14.lesson08.home04.Solution.Circle obj = new Circle();
+        Movable movable = obj;
         Drawable drawable = new Rectangle();
 
         printMainInfo(drawable);

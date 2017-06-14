@@ -1,4 +1,4 @@
-package com.javarush.test.level13.lesson11.home08;
+package com.javarush.task.task03.lesson11.home08;
 
 /* Интерфейс Updatable в классе Screen
 Реализовать интерфейс Updatable в классе Screen.

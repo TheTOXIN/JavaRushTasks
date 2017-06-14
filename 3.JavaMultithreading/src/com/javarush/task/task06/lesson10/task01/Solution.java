@@ -1,4 +1,4 @@
-package com.javarush.test.level26.lesson10.task01;
+package com.javarush.task.task06.lesson10.task01;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
