@@ -2,7 +2,7 @@ package com.javarush.task.task08.lesson10.home01;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Plant extends java.lang.Character {
+public class Plant extends Character {
     private final static AtomicInteger idSequence = new AtomicInteger();
     private final int id = idSequence.incrementAndGet();
 

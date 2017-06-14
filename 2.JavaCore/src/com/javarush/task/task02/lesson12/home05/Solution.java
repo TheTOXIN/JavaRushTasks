@@ -19,7 +19,7 @@ public class Solution
         System.out.println(getObjectType(new Animal()));
     }
 
-    public static String getObjectType(com.javarush.test.level12.lesson12.home05.Solution.Animal o)
+    public static String getObjectType(Animal o)
     {
         if (o instanceof Cat)
         {

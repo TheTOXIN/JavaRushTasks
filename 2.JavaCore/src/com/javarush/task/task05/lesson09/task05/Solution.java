@@ -1,5 +1,6 @@
 package com.javarush.task.task05.lesson09.task05;
 
+
 /* Статики 4
 Внутри статического блока:
 1. Создайте класс Cat
@@ -11,14 +12,16 @@ package com.javarush.task.task05.lesson09.task05;
 
 public class Solution {
 
+    static class Cat
+    {
+        String name = "Пушок";
+    }
+
     public static Cat cat;
 
     static
     {
-        class Cat
-        {
-            String name = "Пушок";
-        }
+
         Cat myCat = new Cat();
         cat = myCat;
         System.out.println(myCat.name);

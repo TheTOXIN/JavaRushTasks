@@ -8,7 +8,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        com.javarush.test.level14.lesson02.task01.Solution.Tiger o = new Tiger();
+        Tiger o = new Tiger();
         boolean isCat = o instanceof Cat;
         boolean isTiger = o instanceof Tiger;
         boolean isPet = o instanceof Pet;

@@ -58,10 +58,10 @@ public class Solution {
         }
     }
 
-    private void persistData(Collection<? extends Object> batch) {
+    private void persistData(Collection <? extends Object> batch) {
         //представим, что тут мы коннектимся к базе данных, и сохраняем данные в нее
         //сохранение данных по 1 записи тратит много ресурсов, поэтому делают батчем (группой по несколько)
-        fakeDataBase.addAll(batch);
+        //fakeDataBase.addAll(batch);
     }
 
     private void printResults() {

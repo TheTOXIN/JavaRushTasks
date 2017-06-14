@@ -14,7 +14,7 @@ public class Solution {
         printMatrix(m, n, (String) value);
     }
 
-    public static void printMatrix(int m, int n, String value) {
+    public static void printMatrix(int m, int n, String value, int k) {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print(value);

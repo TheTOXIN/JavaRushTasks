@@ -20,7 +20,7 @@ import java.util.concurrent.Phaser;
 */
 public class Solution {
     public static void main(String[] args) throws InterruptedException {
-        List<java.lang.Character> characters = new ArrayList<>();
+        List<Character> characters = new ArrayList<>();
         characters.add(new Plant());
         characters.add(new Plant());
         characters.add(new Zombie());
@@ -31,10 +31,10 @@ public class Solution {
 
     private static boolean isEveryoneReady = false;
 
-    private static void start(List<java.lang.Character> characters) throws InterruptedException {
+    private static void start(List<Character> characters) throws InterruptedException {
         final Phaser phaser = new Phaser(1 + characters.size());
 
-        for (final java.lang.Character character : characters) {
+        for (final Character character : characters) {
             final String member = character.toString();
             System.out.println(member + " присоединился к игре");
             new Thread() {

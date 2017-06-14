@@ -11,7 +11,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        com.javarush.test.level14.lesson08.home04.Solution.Circle obj = new Circle();
+        Circle obj = new Circle();
         Movable movable = obj;
         Drawable drawable = new Rectangle();
 

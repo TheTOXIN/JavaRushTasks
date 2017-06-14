@@ -1,7 +1,6 @@
 package com.javarush.task.task03.lesson08.home01;
 
-import com.javarush.test.level23.lesson08.home01.vo.*;
-
+import com.javarush.task.task03.lesson08.home01.vo.*;
 import java.util.List;
 
 /* Анонимность иногда так приятна!

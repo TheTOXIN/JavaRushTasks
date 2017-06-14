@@ -8,7 +8,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        com.javarush.test.level14.lesson04.task04.Solution.Jerry obj = new Jerry();
+        Jerry obj = new Jerry();
 
         Mouse mouse = obj;
         GreyMouse greyMouse = (GreyMouse) mouse;
@@ -18,7 +18,7 @@ public class Solution
 
     }
 
-    public static void printClasses(com.javarush.test.level14.lesson04.task04.Solution.Jerry obj, Mouse mouse, GreyMouse greyMouse, Jerry jerry)
+    public static void printClasses(Jerry obj, Mouse mouse, GreyMouse greyMouse, Jerry jerry)
     {
         System.out.println(jerry.getClass().getSimpleName());
         System.out.println(greyMouse.getClass().getSimpleName());

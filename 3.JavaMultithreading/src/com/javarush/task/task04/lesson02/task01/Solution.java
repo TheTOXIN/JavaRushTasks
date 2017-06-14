@@ -34,13 +34,13 @@ public class Solution {
     }
 
     public static class Test3 {
-        protected com.javarush.test.level24.lesson02.task01.Solution.Test3 c1one() throws CloneNotSupportedException {
+        protected Test3 c1one() throws CloneNotSupportedException {
             return new Test3();
         }
     }
 
     public static class Test4 extends Test3 {
-        protected com.javarush.test.level24.lesson02.task01.Solution.Test3 c1one() throws CloneNotSupportedException {
+        protected Test3 c1one() throws CloneNotSupportedException {
             return super.c1one();
         }
     }

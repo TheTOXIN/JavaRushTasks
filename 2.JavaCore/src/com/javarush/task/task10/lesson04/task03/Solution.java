@@ -48,7 +48,7 @@ public class Solution implements Serializable {
         private Singleton() {
         }
 
-        private com.javarush.test.level20.lesson04.task03.Solution.Singleton readResolve()  {
+        private Singleton readResolve()  {
             return ourInstance;
         }
     }

@@ -22,7 +22,7 @@ public class Solution {
     public List<User> getUsers() {
         String query = "select ID, DISPLAYED_NAME, LEVEL, LESSON from USER";
 
-        List<User> result = new LinkedList<com.javarush.test.level21.lesson10.task02.Solution.User>();
+        List<User> result = new LinkedList<User>();
 
         Statement stmt = null;
         ResultSet rs = null;

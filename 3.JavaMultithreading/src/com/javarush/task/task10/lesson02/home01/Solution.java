@@ -9,14 +9,15 @@ import java.lang.*;
 Валидация для - number.getDigit() - целое не отрицательное
 Метод main не участвует в тестировании
 */
+
 public class Solution {
     public static void main(String[] args) {
-        java.lang.Number number = new java.lang.Number(NumerationSystemType._10, "6");
-        java.lang.Number result = convertNumberToOtherNumerationSystem(number, NumerationSystemType._2);
+        Number number = new Number(NumerationSystemType._10, "6");
+        Number result = convertNumberToOtherNumerationSystem(number, NumerationSystemType._2);
         System.out.println(result);    //expected 110
     }
 
-    public static java.lang.Number convertNumberToOtherNumerationSystem(java.lang.Number number, NumerationSystem expectedNumerationSystem) {
+    public static Number convertNumberToOtherNumerationSystem(Number number, NumerationSystem expectedNumerationSystem) {
 
         return null;
     }

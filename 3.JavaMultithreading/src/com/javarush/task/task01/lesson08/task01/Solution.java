@@ -28,7 +28,7 @@ public class Solution {
 //        }
     }
 
-    protected Map<String, User> users = new LinkedHashMap<String, com.javarush.test.level21.lesson08.task01.Solution.User>();
+    protected Map<String, User> users = new LinkedHashMap<String, User>();
 
     public static class User {
         int age;

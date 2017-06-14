@@ -74,7 +74,7 @@ public class Solution {
     }
 
     public static List<Stock> getStocks() {
-        List<Stock> stocks = new ArrayList<com.javarush.test.level24.lesson09.task02.Solution.Stock>();
+        List<Stock> stocks = new ArrayList<Stock>();
 
         stocks.add(new Stock("Fake Apple Inc.", "AAPL", 125.64, 123.43));
         stocks.add(new Stock("Fake Cisco Systems, Inc.", "CSCO", 25.84, 26.3));
