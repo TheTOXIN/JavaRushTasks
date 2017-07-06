@@ -27,7 +27,7 @@ public class Solution implements Serializable{
 
         System.out.println(person.firstName+" "+person.lastName+" "+person.age+" "+person.father.firstName+" "+person.mother.firstName+" "+person.children);
 
-        File file = new File("d:/1.txt");
+        File file = new File("1.txt");
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file));
         oos.writeObject(person);
         oos.close();

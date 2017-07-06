@@ -21,9 +21,19 @@ public class Solution {
     }
 
     public static byte[] getNetAddress(byte[] ip, byte[] mask) {
-        return new byte[4];
+        byte[] address = new byte[4];
+        for (int i = 0; i < address.length; i++) {
+            address[i] = (byte)(ip[i] & mask[i]);
+        }
+        return address;
     }
 
     public static void print(byte[] bytes) {
+        String binaryString;
+        for (int i = 0; i < bytes.length; i++) {
+            binaryString = Integer.toBinaryString(bytes[i] + 0xFF);
+            System.out.print(binaryString.substring(binaryString.length() - 8) + " ");
+        }
+        System.out.println();
     }
 }

@@ -15,11 +15,18 @@ public class Solution {
         this.last = last;
     }
 
+    @Override
     public boolean equals(Object o) {
         if (!(o instanceof Solution))
             return false;
         Solution n = (Solution) o;
         return n.first.equals(first) && n.last.equals(last);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = first.hashCode() + last.hashCode();
+        return result;
     }
 
     public static void main(String[] args) {

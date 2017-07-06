@@ -23,6 +23,13 @@ public class Solution {
         public int getJ() {
             return j;
         }
+
+        @Override
+        protected A clone() throws CloneNotSupportedException {
+            if (this instanceof B)
+                System.out.println("НИХУЯ");
+            return new A(getI(), getI());
+        }
     }
 
     public static class B extends A {
@@ -36,11 +43,21 @@ public class Solution {
         public String getName() {
             return name;
         }
+
+        @Override
+        protected B clone() throws CloneNotSupportedException {
+            throw new CloneNotSupportedException();
+        }
     }
 
-    public static class C extends B {
+    public static class C extends B{
         public C(int i, int j, String name) {
             super(i, j, name);
+        }
+
+        @Override
+        protected C clone() throws CloneNotSupportedException {
+            return new C(getI(), getI(), getName());
         }
     }
 }

@@ -30,6 +30,7 @@ public class Solution implements Serializable
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String fileName = reader.readLine();
+
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName));
         oos.writeObject(solution1);
         oos.close();

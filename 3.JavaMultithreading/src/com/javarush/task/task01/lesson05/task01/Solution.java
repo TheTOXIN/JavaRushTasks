@@ -17,19 +17,13 @@ public class Solution {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
 
         Solution solution = (Solution) o;
 
-        if (first != null ? !first.equals(solution.first) : solution.first != null)
-            return false;
-        if (last != null ? !last.equals(solution.last) : solution.last != null)
-            return false;
-
-        return true;
+        if (first != null ? !first.equals(solution.first) : solution.first != null) return false;
+        return last != null ? last.equals(solution.last) : solution.last == null;
     }
 
     @Override

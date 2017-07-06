@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        BufferedReader in = new BufferedReader( new FileReader(sc.nextLine()));
+        BufferedReader in = new BufferedReader(new FileReader(sc.nextLine()));
         sc.close();
         StringBuilder sb = new StringBuilder();
         String s;
