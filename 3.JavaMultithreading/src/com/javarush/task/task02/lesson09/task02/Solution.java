@@ -1,5 +1,7 @@
 package com.javarush.task.task02.lesson09.task02;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /* Формируем Where
@@ -13,6 +15,25 @@ import java.util.Map;
 public class Solution {
 
     public static StringBuilder getCondition(Map<String, String> params) {
-        return null;
+        StringBuilder query = new StringBuilder();
+        if (params == null || params.size() < 0)
+            return query;
+        for (Map.Entry pair : params.entrySet()) {
+            if (pair.getKey() != null && pair.getValue() != null)
+                query.append(" and ").append(pair.getKey()).append(" = '").append(pair.getValue()).append("'");
+        }
+        query.delete(0, 5);
+        return query;
+    }
+
+    public static void main(String[] args) {
+        Map<String, String> params = new LinkedHashMap<>();
+
+        params.put("name", "Ivanov");
+        params.put("county", "Ukraine");
+        params.put("city", "Kiev");
+        params.put("age", null);
+
+        System.out.println(getCondition(params));
     }
 }

@@ -15,16 +15,15 @@ import java.util.zip.ZipFile;
 Отрефакторите метод writeZipEntriesToFile в соответствии с java7 try-with-resources.
 Допускаются только текстовые коментарии.
 */
-public class Solution {
+public class Solution  {
     public static void writeZipEntriesToFile(String zipFileName, String outputFileName) {
         Charset charset = StandardCharsets.UTF_8;
         Path outputFilePath = Paths.get(outputFileName);
 
-        BufferedWriter writer = null;
-        ZipFile zip = null;
-        try {
-            zip = new ZipFile(zipFileName);
-            writer = Files.newBufferedWriter(outputFilePath, charset);
+        try (
+                ZipFile zip = new ZipFile(zipFileName);
+                BufferedWriter writer = Files.newBufferedWriter(outputFilePath, charset)
+            ) {
             String newLine = System.getProperty("line.separator");
             for (Enumeration<? extends ZipEntry> entries = zip.entries(); entries.hasMoreElements(); ) {
                 // Берем имя файла из архива и записываем его в результирующий файл
@@ -34,21 +33,6 @@ public class Solution {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (writer != null) {
-                try {
-                    writer.close();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
-            }
-            if (zip != null) {
-                try {
-                    zip.close();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
-            }
         }
     }
 }

@@ -1,5 +1,11 @@
 package com.javarush.task.task02.lesson09.task03;
 
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /* Составить цепочку слов
 В методе main считайте с консоли имя файла, который содержит слова, разделенные пробелом.
 В методе getLine используя StringBuilder расставить все слова в таком порядке,
@@ -16,13 +22,49 @@ package com.javarush.task.task02.lesson09.task03;
 Амстердам Мельбурн Нью-Йорк Киев Вена
 */
 public class Solution {
-    public static void main(String[] args) {
-        //...
-        StringBuilder result = getLine();
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader bufferFile = new BufferedReader(new FileReader(bufferedReader.readLine()));
+        StringBuilder sb = new StringBuilder();
+
+        while (bufferFile.ready()) {
+            sb.append(bufferFile.readLine() + " ");
+        }
+
+        String[] words = sb.toString().split(" ");
+        StringBuilder result = getLine(words);
         System.out.println(result.toString());
     }
 
     public static StringBuilder getLine(String... words) {
-          return null;
+        ArrayList<String> strings  = new ArrayList<>();
+        Collections.addAll(strings, words);
+        StringBuilder sb = new StringBuilder();
+        if (strings.size() == 0)
+            return new StringBuilder();
+
+        sb.append(strings.get(0));
+        strings.remove(0);
+
+        while (strings.size()>0){
+            for (int i = 0; i < strings.size(); i++) {
+                String a = strings.get(i).toUpperCase().toLowerCase();
+                String b = sb.toString().toUpperCase().toLowerCase();
+                if (a.charAt(0) == b.charAt(sb.length() - 1))
+                { // в конец
+                    sb.append(" ").append(strings.get(i));
+                    strings.remove(i);
+                    continue;
+                }
+
+                if (b.charAt(0) == a.charAt(a.length() - 1))
+                { //в начало
+                    sb.insert(0, " ");
+                    sb.insert(0, strings.get(i));
+                    strings.remove(i);
+                }
+            }
+        }
+        return sb;
     }
 }

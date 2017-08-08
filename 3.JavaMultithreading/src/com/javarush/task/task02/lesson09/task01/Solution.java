@@ -1,5 +1,8 @@
 package com.javarush.task.task02.lesson09.task01;
 
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,7 +22,37 @@ import java.util.List;
 public class Solution {
     public static List<Pair> result = new LinkedList<>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String fileName = reader.readLine();
+
+        BufferedReader in = new BufferedReader(new FileReader(fileName));
+        List<String> sbList = new ArrayList<>();
+
+        while (in.ready()) {
+           sbList.addAll(Arrays.asList(in.readLine().split(" ")));
+        }
+
+        for (int i = 0; i < sbList.size(); i++) {
+            for (int j = 0; j < sbList.size(); j++) {
+                if (j != i && sbList.get(i).equals(new StringBuilder(sbList.get(j)).reverse().toString())) {
+
+                    Pair pair = new Pair();
+                    pair.first = sbList.get(i);
+                    pair.second = sbList.get(j);
+                    result.add(pair);
+
+                    List<String> tmpList = new ArrayList<>();
+                    tmpList.add(sbList.get(i));
+                    tmpList.add(sbList.get(j));
+                    sbList.removeAll(tmpList);
+
+                    i--;
+                    break;
+                }
+            }
+        }
+        System.out.println(result.toString());
     }
 
     public static class Pair {

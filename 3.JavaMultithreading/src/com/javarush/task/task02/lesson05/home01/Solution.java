@@ -6,7 +6,8 @@ package com.javarush.task.task02.lesson05.home01;
 а) TooShortStringFirstThreadException, если имя трэда FIRST_THREAD_NAME.
 б) TooShortStringSecondThreadException, если имя трэда SECOND_THREAD_NAME.
 в) RuntimeException в других случаях.
-3. Реализуйте логику трех protected методов в ThisUncaughtExceptionHandler используя вызовы соответствующих методов согласно следующему шаблону:
+3. Реализуйте логику трех protected методов в
+ThisUncaughtExceptionHandler используя вызовы соответствующих методов согласно следующему шаблону:
 a) 1# : TooShortStringFirstThreadException : java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 б) java.lang.StringIndexOutOfBoundsException: String index out of range: -1 : TooShortStringSecondThreadException : 2#
 в) RuntimeException : java.lang.StringIndexOutOfBoundsException: String index out of range: -1 : 3#
@@ -40,6 +41,47 @@ public class Solution {
     }
 
     public String getPartOfString(String string, String threadName) {
-        return null;
+        int countTab = 0;
+        try {
+            if (string == null) {
+                if (threadName.equals(FIRST_THREAD_NAME))
+                    throw new TooShortStringFirstThreadException();
+                else if (threadName.equals(SECOND_THREAD_NAME))
+                    throw new TooShortStringFirstThreadException();
+                else
+                    throw new RuntimeException();
+            }
+            for (char c : string.toCharArray()) {
+                if (c == '\t')
+                    countTab ++;
+            }
+            if (countTab < 2) {
+                if (threadName.equals(FIRST_THREAD_NAME))
+                    throw new TooShortStringFirstThreadException();
+                else if (threadName.equals(SECOND_THREAD_NAME))
+                    throw new TooShortStringFirstThreadException();
+                else
+                    throw new RuntimeException();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        int firstIndex = 0;
+        int lastIndex = 0;
+        int count = 0;
+
+        char[] chars = string.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == '\t') {
+                count++;
+                if (count == 1)
+                    firstIndex = i + 1;
+                if (count == countTab)
+                    lastIndex = i;
+            }
+        }
+
+        return string.substring(firstIndex, lastIndex);
     }
 }

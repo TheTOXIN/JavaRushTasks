@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* Нюансы Exceptions
-Классы семейства Utilizator должны утилизировать ресурсы не влияя на работу программы, т.е. программа должна отрабатывать одинаково с любым из Utilizator-ов.
+Классы семейства Utilizator должны утилизировать ресурсы не влияя на работу программы,
+т.е. программа должна отрабатывать одинаково с любым из Utilizator-ов.
 На данный момент это не выполняется из-за неправильных реализаций утилизаторов. Исправьте реализацию утилизаторов.
 Метод main не участвует в тестировании.
 UtilizatorUtil не менять.
@@ -47,7 +48,7 @@ public class Solution {
         } catch (IOException ignored) {
 
         } finally {
-            utilizator.dispose();
+                utilizator.dispose();
         }
         return strings;
     }
@@ -72,7 +73,11 @@ public class Solution {
     public static class SpecificUtilizator extends Utilizator {
         @Override
         public void dispose() {
-            util.throwException();
+            try {
+                util.throwException();
+            } catch (RuntimeException re) {
+                util.sout("ALL OKAY");
+            }
         }
     }
 
