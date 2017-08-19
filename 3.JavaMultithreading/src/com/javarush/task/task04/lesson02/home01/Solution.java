@@ -8,9 +8,8 @@ package com.javarush.task.task04.lesson02.home01;
 5. В методе testClass класса Util: если параметр == null, то выбросьте UnsupportedInterfaceMarkerException
 */
 public class Solution {
-//    public static void main(String[] args) throws UnsupportedInterfaceMarkerException {
-//        SelfInterfaceMarkerImpl obj = new SelfInterfaceMarkerImpl();
-//        Util.testClass(obj);
-//    }
-
+    public static void main(String[] args) throws UnsupportedInterfaceMarkerException {
+        SelfInterfaceMarkerImpl obj = new SelfInterfaceMarkerImpl();
+        Util.testClass(obj);
+    }
 }

@@ -5,7 +5,6 @@ package com.javarush.task.task04.lesson02.task01;
 Удалять что-либо нельзя.
 */
 public class Solution {
-
     public static void main(String[] args) throws CloneNotSupportedException {
         Test1 test1 = new Test1();
         test1.clone();
@@ -20,8 +19,7 @@ public class Solution {
         test4.c1one();
     }
 
-
-    public static class Test1 {
+    public static class Test1 implements Cloneable {
         protected Test1 clone() throws CloneNotSupportedException {
             return (Test1)super.clone();
         }
@@ -33,15 +31,15 @@ public class Solution {
         }
     }
 
-    public static class Test3 {
+    public static class Test3 implements Cloneable {
         protected Test3 c1one() throws CloneNotSupportedException {
             return new Test3();
         }
     }
 
     public static class Test4 extends Test3 {
-        protected Test3 c1one() throws CloneNotSupportedException {
-            return super.c1one();
+        protected Test4 clone() throws CloneNotSupportedException {
+            return (Test4)super.clone();
         }
     }
 }

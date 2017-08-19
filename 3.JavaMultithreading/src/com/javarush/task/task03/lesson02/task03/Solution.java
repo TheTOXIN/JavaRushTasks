@@ -5,7 +5,10 @@ package com.javarush.task.task03.lesson02.task03;
 */
 public class Solution {
 
-    public static class Listener {
+    public static abstract class Listener {
+
+        private Listener(){}
+
         public void onMouseDown(int x, int y) {
             //do something on mouse down event
         }

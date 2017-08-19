@@ -6,43 +6,50 @@ package com.javarush.task.task03.lesson06.task02;
 */
 public class Solution {
 
+    public static final class Constants {
+        private static final String SERVER_NOT_ACCESS = "Server is not accessible for now.";
+        private static final String UNAUTHORIZED_USERS = "User is not authorized.";
+        private static final String BANNED_USER = "User is banned.";
+        private static final String RESTRICTION = "Access is denied.";
+    }
+
     public class ServerNotAccessibleException extends Exception {
         public ServerNotAccessibleException() {
-            super("Server is not accessible for now.");
+            super(Constants.SERVER_NOT_ACCESS);
         }
 
         public ServerNotAccessibleException(Throwable cause) {
-            super("Server is not accessible for now.", cause);
+            super(Constants.SERVER_NOT_ACCESS, cause);
         }
     }
 
     public class UnauthorizedUserException extends Exception {
         public UnauthorizedUserException() {
-            super("User is not authorized.");
+            super(Constants.UNAUTHORIZED_USERS);
         }
 
         public UnauthorizedUserException(Throwable cause) {
-            super("User is not authorized.", cause);
+            super(Constants.UNAUTHORIZED_USERS, cause);
         }
     }
 
     public class BannedUserException extends Exception {
         public BannedUserException() {
-            super("User is banned.");
+            super(Constants.BANNED_USER);
         }
 
         public BannedUserException(Throwable cause) {
-            super("User is banned.", cause);
+            super(Constants.BANNED_USER, cause);
         }
     }
 
     public class RestrictionException extends Exception {
         public RestrictionException() {
-            super("Access is denied.");
+            super(Constants.RESTRICTION);
         }
 
         public RestrictionException(Throwable cause) {
-            super("Access is denied.", cause);
+            super(Constants.RESTRICTION, cause);
         }
     }
 }

@@ -14,10 +14,10 @@ public class Solution {
         }
     }
 
-    static String obj;
+    static Object obj;
 
     public static void main(String[] args) {
-        obj = Solution.TEST;
+        obj = new Solution.TEST();
         System.out.println(obj);
     }
 }
