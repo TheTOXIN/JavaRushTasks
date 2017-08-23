@@ -20,9 +20,26 @@ public class Solution implements Action {
         public void someAction() {
             //!!!!! All changes have to be here
             //!!!!! Все изменения должны быть только тут
+            if (param > 0) {
+                while (param != 0)
+                    System.out.println(param--);
+                new FirstClass() {
+                    @Override
+                    public Action getDependantAction() {
+                        return null;
+                    }
+                }.someAction();
+                new SecondClass().someAction();
+                System.out.print(SecondClass.SPECIFIC_ACTION_FOR_ANONYMOUS_SECOND_CLASS_PARAM.replaceAll("\n", ""));
+                System.out.println(param);
+            }
+            else {
+                new SecondClass().someAction();
+                System.out.print(SecondClass.SPECIFIC_ACTION_FOR_ANONYMOUS_SECOND_CLASS_PARAM.replaceAll("\n", ""));
+                System.out.println(param);
+            }
         }
     };
-
 
     public Solution(int param) {
         this.param = param;

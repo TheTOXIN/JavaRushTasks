@@ -9,7 +9,8 @@ import java.util.*;
 /* Знания - сила!
 1. В методе sort написать компаратор для Stock:
 1.1. Первичная сортировка по name в алфавитном порядке
-1.2. Вторичная сортировка по дате без учета часов, минут, секунд (сверху самые новые), потом по прибыли от положительных к отрицательным
+1.2. Вторичная сортировка по дате без учета часов, минут,
+секунд (сверху самые новые), потом по прибыли от положительных к отрицательным
 ... open 125,64 and last 126,74 - тут прибыль = 126,74-125,64
 ... open 125,64 and last 123,43 - тут прибыль = 123,43-125,64
 2. Разобраться с *Format-ами и исправить IllegalArgumentException. Подсказка - это одна строчка.
@@ -32,7 +33,7 @@ public class Solution {
         String[] filepart = {"closed {4}", "open {2} and last {3}"};
 
         ChoiceFormat fileform = new ChoiceFormat(filelimits, filepart);
-        Format[] testFormats = {null, dateFormat, fileform};
+        Format[] testFormats = {null, null, dateFormat, fileform};
         MessageFormat pattform = new MessageFormat("{0}   {1} | {5} {6}");
         pattform.setFormats(testFormats);
 
@@ -50,8 +51,30 @@ public class Solution {
 
     public static void sort(List<Stock> list) {
         Collections.sort(list, new Comparator<Stock>() {
+            @Override
             public int compare(Stock stock1, Stock stock2) {
-                return 0;
+                if (stock1.get("name").toString().compareTo(stock2.get("name").toString()) > 0) {
+                    return 1;
+                } else if (stock1.get("name").toString().compareTo(stock2.get("name").toString()) == 0) {
+                    Date date1 = (Date) stock1.get("date");
+                    Date date2 = (Date) stock2.get("date");
+                    if (date1.compareTo(date2) > 0) {
+                        return 1;
+                    } else if (date1.compareTo(date2) == 0) {
+                        double d1 = stock1.containsKey("change") ? (double)stock1.get("change") :
+                                (double) (stock1.get("last")) - (double) (stock1.get("open"));
+                        double d2 = stock2.containsKey("change") ? (double)stock2.get("change") :
+                                (double) (stock2.get("last")) - (double) (stock2.get("open"));
+
+                        if (Double.compare(d1, d2) == 1) {
+                            return 1;
+                        }
+                        else if (Double.compare(d1, d2) == 0) {
+                            return 0;
+                        }
+                    }
+                }
+                return -1;
             }
         });
     }

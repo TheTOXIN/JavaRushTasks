@@ -25,6 +25,7 @@ public class Util {
         List<Sayable> result = new LinkedList<>();
         for (Pet pet : pets) {
             int i = (int) (Math.random() * 7) - 2;
+            System.out.println(i);
             result.add(pet.toSayable(i));
         }
         return result;

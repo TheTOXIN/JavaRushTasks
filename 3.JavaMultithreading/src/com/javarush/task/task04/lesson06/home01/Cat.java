@@ -29,6 +29,25 @@ public class Cat implements Pet {
      * @return экземпляр класса CatPet
      */
     public Sayable toSayable(final int i) {
-        return null;
+
+        class CatPet implements Sayable {
+            public String say() {
+                String res;
+                String mew = "м";
+
+                for (int k = 0; k < i; k++)
+                    mew += "я";
+                mew += "у";
+
+                if (i <= 0)
+                    res = name + " спит.";
+                else
+                    res = name + " говорит " + mew + "!";
+
+                return res;
+            }
+        }
+
+        return new CatPet();
     }
 }
