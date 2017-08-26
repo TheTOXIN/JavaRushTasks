@@ -1,5 +1,6 @@
 package com.javarush.task.task05.lesson02.task02;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /* Машину на СТО не повезем!
@@ -21,6 +22,10 @@ public class Solution {
 
         public Car() {
             //init wheels here
+            wheels = new ArrayList<>();
+            for (String str : loadWheelNamesFromDB()) {
+                wheels.add(Wheel.valueOf(str));
+            }
         }
 
         protected String[] loadWheelNamesFromDB() {
