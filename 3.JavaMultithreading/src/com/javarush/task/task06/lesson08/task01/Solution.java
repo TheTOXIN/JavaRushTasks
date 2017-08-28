@@ -7,5 +7,22 @@ IntegerHolder должен быть для типа int, быть нитебез
 */
 public class Solution {
     public static void main(String[] args) {
+
+    }
+
+    public static class IntegerHolder {
+        private volatile int value;
+
+        public IntegerHolder(int value) {
+            this.value = value;
+        }
+
+        public synchronized int get() {
+            return this.value;
+        }
+
+        public synchronized void set(int value) {
+            this.value = value;
+        }
     }
 }

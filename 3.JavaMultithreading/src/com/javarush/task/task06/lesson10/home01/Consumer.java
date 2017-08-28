@@ -2,23 +2,24 @@ package com.javarush.task.task06.lesson10.home01;
 
 import java.util.concurrent.BlockingQueue;
 
-public class Producer implements Runnable {
+public class Consumer implements Runnable {
     protected BlockingQueue<String> queue;
 
-    public Producer(BlockingQueue<String> queue) {
+    public Consumer(BlockingQueue<String> queue) {
         this.queue = queue;
     }
 
     @Override
     public void run() {
         try {
-            int i = 0;
+            String str;
             while (true) {
-                queue.put(String.valueOf(i++));
+                str = queue.take();
+                System.out.println(str);
                 Thread.sleep(500);
             }
         } catch (InterruptedException e) {
-            System.out.println(String.format("[%s] thread was terminated", Thread.currentThread().getName()));
+            System.out.println(String.format("[%s] This is fucking thread the broke", Thread.currentThread().getName()));
         }
     }
 }
