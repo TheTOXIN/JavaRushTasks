@@ -8,9 +8,14 @@ package com.javarush.task.task07.lesson06.task01;
 */
 public class Solution {
     public void safeMethod(Object obj1, Object obj2) {
-        synchronized (obj1) {
+
+        int res = obj1.toString().compareTo(obj2.toString());
+        Object objMax = res >= 0 ? obj1 : obj2;
+        Object objMin = res < 0 ? obj2 : obj1;
+
+        synchronized (objMin) {
             longTimeMethod();
-            synchronized (obj2) {
+            synchronized (objMax) {
                 unsafeMethod(obj1, obj2);
             }
         }

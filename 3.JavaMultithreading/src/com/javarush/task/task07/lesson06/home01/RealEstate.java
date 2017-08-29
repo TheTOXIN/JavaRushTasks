@@ -25,8 +25,10 @@ public class RealEstate {
         return allApartments;
     }
 
-    public synchronized void up(Apartment apartment) {
-        activeApartments.add(apartment);
+    public void up(Apartment apartment) {
+        synchronized (apartment) {
+            activeApartments.add(apartment);
+        }
     }
 
     public synchronized void revalidate() {

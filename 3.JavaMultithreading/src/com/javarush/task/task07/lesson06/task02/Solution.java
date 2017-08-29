@@ -1,5 +1,7 @@
 package com.javarush.task.task07.lesson06.task02;
 
+import sun.awt.windows.ThemeReader;
+
 /* Определяем порядок захвата монитора. Сложная.
 Реализуйте логику метода isNormalLockOrder, который должен определять:
 соответствует ли порядок synchronized блоков в методе someMethodWithSynchronizedBlocks - порядку
@@ -29,6 +31,22 @@ public class Solution {
 
     public static boolean isNormalLockOrder(final Solution solution, final Object o1, final Object o2) throws Exception {
         //do something here
+        long time = System.currentTimeMillis();
+
+        new Thread() {
+            @Override
+            public void run() {
+                solution.someMethodWithSynchronizedBlocks(o1, o2);
+            }
+        }.start();
+
+        Thread.sleep(50);
+
+        synchronized (o2) {
+            long last = System.currentTimeMillis() - time;
+            if (last < 100)
+                return true;
+        }
         return false;
     }
 
