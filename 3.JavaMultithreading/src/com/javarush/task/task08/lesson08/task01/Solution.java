@@ -1,5 +1,9 @@
 package com.javarush.task.task08.lesson08.task01;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
 /* Знакомство с Executors
 1. В методе main создай фиксированный пул из 5 трэдов используя класс Executors.
 2. В цикле отправь на исполнение в пул 10 тасок Runnable.
@@ -9,8 +13,20 @@ package com.javarush.task.task08.lesson08.task01;
 Не должно быть комментариев кроме приведенного output example
 */
 public class Solution {
-    public static void main(String[] args) throws InterruptedException {
+     public static void main(String[] args) throws InterruptedException {
         //Add your code here
+        ExecutorService service = Executors.newFixedThreadPool(5);
+        for (int i = 1; i <= 10; i++) {
+            final int id = i;
+            service.submit(new Runnable() {
+                @Override
+                public void run() {
+                    doExpensiveOperation(id);
+                }
+            });
+        }
+        service.shutdown();
+        service.awaitTermination(5, TimeUnit.SECONDS);
 
         /* output example
 pool-1-thread-2, localId=2

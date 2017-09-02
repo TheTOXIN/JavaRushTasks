@@ -10,21 +10,22 @@ import java.nio.file.Paths;
 */
 public class Solution {
     public static void main(String[] args) throws IOException, InterruptedException {
-        Solution Solution = new Solution();
-        String file_name_to_be_opened_by_notepad = Solution.Getabsolutepathtodefaulttxtfile().toString();
-        Process NOTEPAD = Solution.getprocessstartnotepad(file_name_to_be_opened_by_notepad);
-        NOTEPAD.waitFor();
+        Solution solution = new Solution();
+        String fileName = solution.getAbsolutePathToDefaultTxtFile().toString();
+        System.out.println(fileName);
+        Process notepad = solution.getProcessStartNotepad(fileName);
+        notepad.waitFor();
     }
 
-    public Process getprocessstartnotepad(String FILE_NAME) throws IOException {
-        String[] cmd_array = new String[]{"notepad.exe", FILE_NAME};
+    public Process getProcessStartNotepad(String fileName) throws IOException {
+        String[] cmd_array = new String[]{"notepad.exe", fileName};
         return Runtime.getRuntime().exec(cmd_array);
     }
 
-    public Path Getabsolutepathtodefaulttxtfile() {
-        String PackageName = Solution.class.getPackage().getName().replaceAll("[.]", "\\\\");
-        String FileName = "src\\" + PackageName + "\\file.txt";
-        Path PATH = Paths.get(FileName);
-        return PATH.toAbsolutePath();
+    public Path getAbsolutePathToDefaultTxtFile() {
+        String packageName = Solution.class.getPackage().getName().replaceAll("[.]", "\\\\");
+        String fileName = "3.JavaMultithreading\\src\\" + packageName + "\\file.txt";
+        Path path = Paths.get(fileName);
+        return path.toAbsolutePath();
     }
 }

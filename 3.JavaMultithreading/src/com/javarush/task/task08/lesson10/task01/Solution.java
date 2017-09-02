@@ -19,7 +19,7 @@ public class Solution {
 
         futures.add(executor.submit(getTask(10000000)));
 
-        for(Future<String> future : futures) {
+        for (Future<String> future : futures) {
             System.out.println(future.get());
         }
 
@@ -43,6 +43,15 @@ public class Solution {
     }
 
     public static Callable<String> getTask(final int i) {
-        return null;
+        return new Callable<String>() {
+            @Override
+            public String call() {
+                long res = 0;
+                for (int j = 1; j <= i; j++) {
+                    res += j;
+                }
+                return String.valueOf(res);
+            }
+        };
     }
 }

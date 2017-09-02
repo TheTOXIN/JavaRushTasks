@@ -1,5 +1,8 @@
 package com.javarush.task.task08.lesson04.task01;
 
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /* Пишем свою ThreadFactory
 В классе Solution создайте публичный статический класс AmigoThreadFactory, реализующий интерфейс ThreadFactory
 1.Реализация интерфейсного метода - создайте и верните трэд, который должен:
@@ -20,6 +23,24 @@ firstGroup-pool-1-thread-2
 secondGroup-pool-2-thread-2
 */
 public class Solution {
+    public static class AmigoThreadFactory implements ThreadFactory {
+
+        private static AtomicInteger countGroups = new AtomicInteger(0);
+        private AtomicInteger numberThread = new AtomicInteger(0);
+        private AtomicInteger numberGroup;
+
+        public AmigoThreadFactory() {
+            numberGroup = new AtomicInteger(countGroups.incrementAndGet());
+        }
+
+        @Override
+        public Thread newThread(Runnable r) {
+            numberThread.incrementAndGet();
+            Thread t = new Thread(r);
+            t.setName(String.format("%s-pool-%s-thread-%s", t.getThreadGroup().getName(), numberGroup, numberThread));
+            return t;
+        }
+    }
 
     public static void main(String[] args) {
         class EmulateThreadFactoryTask implements Runnable {
@@ -40,15 +61,15 @@ public class Solution {
     }
 
     private static void emulateThreadFactory() {
-//        AmigoThreadFactory factory = new AmigoThreadFactory();
-//        Runnable r = new Runnable() {
-//            @Override
-//            public void run() {
-//                System.out.println(Thread.currentThread().getName());
-//            }
-//        };
-//        factory.newThread(r).start();
-//        factory.newThread(r).start();
-//        factory.newThread(r).start();
+        AmigoThreadFactory factory = new AmigoThreadFactory();
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName());
+            }
+        };
+        factory.newThread(r).start();
+        factory.newThread(r).start();
+        factory.newThread(r).start();
     }
 }
