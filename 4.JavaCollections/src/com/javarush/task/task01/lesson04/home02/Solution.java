@@ -2,6 +2,7 @@ package com.javarush.task.task01.lesson04.home02;
 
 import java.io.IOException;
 import java.nio.file.*;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
@@ -42,5 +43,18 @@ public class Solution extends SimpleFileVisitor<Path> {
 
     public List<String> getFailed() {
         return failed;
+    }
+
+    @Override
+    public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+        if (file.endsWith(".zip") || file.endsWith(".rar"))
+            archived.add(file.toString());
+        return super.visitFile(file, attrs);
+    }
+
+    @Override
+    public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
+        failed.add(file.toString());
+        return FileVisitResult.SKIP_SUBTREE;
     }
 }

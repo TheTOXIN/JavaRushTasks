@@ -15,6 +15,13 @@ public class Solution {
     }
 
     public static int maxPowerOf2(int x) {
-        return x;
+        int t = 1 << 30;
+        System.out.println(t);
+        while (x < t) {
+            t >>= 1;
+            System.out.println(t);
+        }
+        System.out.println("=====================");
+        return t;
     }
 }

@@ -8,7 +8,7 @@ public class Solution {
     private Integer[] array = new Integer[]{1, 2, 3, 4};
 
     Number getValueByIndex(int index) {
-        return (index >= 0 && index < array.length) ? array[index] : new Double(-1);
+        return (index >= 0 && index < array.length) ? (Number)array[index] : new Double(-1);
     }
 
     public static void main(String[] args) {

@@ -14,6 +14,21 @@ public class Solution {
     }
 
     public static String convertToDecimalSystem(String s) {
-        return s;
+        int radix;
+        String res = "";
+        if (s.matches("0x\\d*")) {
+            res = s.replaceFirst("0x", "");
+            radix = 16;
+        } else if (s.matches("0\\d*")) {
+            res = s.replaceAll("0", "");
+            radix = 8;
+        } else if (s.matches("0b\\d*")) {
+            res = s.replaceAll("0b", "");
+            radix = 2;
+        } else {
+            res = s;
+            radix = 10;
+        }
+        return res;
     }
 }

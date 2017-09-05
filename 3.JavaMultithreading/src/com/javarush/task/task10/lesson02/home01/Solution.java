@@ -1,6 +1,7 @@
 package com.javarush.task.task10.lesson02.home01;
 
 import java.lang.*;
+import java.math.BigInteger;
 
 /* Конвертер систем счислений
 Реализуйте логику метода convertNumberToOtherNumerationSystem, который должен переводить число number.getDigit()
@@ -18,7 +19,12 @@ public class Solution {
     }
 
     public static Number convertNumberToOtherNumerationSystem(Number number, NumerationSystem expectedNumerationSystem) {
-
-        return null;
+        BigInteger res = null;
+        try {
+            res = new BigInteger(number.getDigit(), number.getNumerationSystem().getNumerationSystemIntValue());
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+        }
+        return new Number(expectedNumerationSystem, res.toString(expectedNumerationSystem.getNumerationSystemIntValue()));
     }
 }

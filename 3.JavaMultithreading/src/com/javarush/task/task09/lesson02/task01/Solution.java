@@ -32,7 +32,6 @@ public class Solution {
 
     public void downloadFileContent() {
         Path source = Paths.get(localFileName);
-
         try {
             contentAsLines = Files.readAllLines(source, Charset.defaultCharset());
             fileLoaded = true;
@@ -48,10 +47,8 @@ public class Solution {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.println(Solution.class.getPackage().getName());
         String packageName = Solution.class.getPackage().getName().replaceAll("\\.", "\\\\");
-        System.out.println(packageName);
-        String fileName = "src\\" + packageName + "\\Solution.java";
+        String fileName = "3.JavaMultithreading\\src\\" + packageName + "\\Solution.java";
 
         Solution solution = new Solution(fileName);
         solution.downloadFileContent();
