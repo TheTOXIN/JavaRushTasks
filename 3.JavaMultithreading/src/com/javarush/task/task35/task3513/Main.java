@@ -15,5 +15,19 @@ public class Main {
         game.add(controller.getView());
         game.setLocationRelativeTo(null);
         game.setVisible(true);
+
+        new Thread() {
+            @Override
+            public void run() {
+                while (true) {
+                    try {
+                        Thread.sleep(1000 / 60);
+                        controller.getView().repaint();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }.start();
     }
 }

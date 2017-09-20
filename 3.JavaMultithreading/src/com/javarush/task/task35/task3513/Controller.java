@@ -25,6 +25,10 @@ public class Controller extends KeyAdapter {
         return view;
     }
 
+    public Model getModel() {
+        return model;
+    }
+
     public void resetGame() {
         model.score = 0;
         view.isGameLost = false;
@@ -55,7 +59,5 @@ public class Controller extends KeyAdapter {
 
         if (model.maxTile == WINNING_TILE)
             view.isGameWon = true;
-
-        view.repaint();
     }
 }
